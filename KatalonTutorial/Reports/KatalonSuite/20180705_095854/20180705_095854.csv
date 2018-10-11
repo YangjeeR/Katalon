@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+KatalonSuite,Firefox 61.0,,2018-07-05 09:59:01,2018-07-05 09:59:29,28.295s,PASSED
+,,,,,,
+Test Cases/WebRegressionTest,Firefox 61.0,,2018-07-05 09:59:01,2018-07-05 09:59:29,27.754s,PASSED
+"Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getRowNumbers(), (i++)])",Firefox 61.0,,2018-07-05 09:59:02,2018-07-05 09:59:12,10.422s,PASSED
+setText,Firefox 61.0,,2018-07-05 09:59:12,2018-07-05 09:59:12,0.153s,PASSED
+setText,Firefox 61.0,,2018-07-05 09:59:12,2018-07-05 09:59:25,12.781s,PASSED
+setText,Firefox 61.0,,2018-07-05 09:59:25,2018-07-05 09:59:25,0.051s,PASSED
+setText,Firefox 61.0,,2018-07-05 09:59:25,2018-07-05 09:59:29,3.952s,PASSED

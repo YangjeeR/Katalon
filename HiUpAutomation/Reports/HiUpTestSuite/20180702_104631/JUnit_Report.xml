@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HiUpTestSuite" time="56" tests="2" failures="0" errors="0">
+   <testsuite name="HiUpTestSuite" tests="2" failures="0" errors="0" time="56" timestamp="2018-07-02 10:46:39" hostname="Acer - DESKTOP-O5SIUU5" id="Test Suites/HiUpTestSuite">
+      <properties>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180702_104631"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180702_104631\\appium.log, C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180702_104631\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - DESKTOP-O5SIUU5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="deviceModel" value="SM-G935F"/>
+         <property name="hostAddress" value="192.168.210.2"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="ce12160cab7a2c4b0c"/>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/HiUP_LoginTest" classname="Test Cases/HiUP_LoginTest" status="PASSED">
+         <system-out><![CDATA[2018-07-02 10:46:39 - [TEST_CASE][PASSED] - Test Cases/HiUP_LoginTest: Test Cases/HiUP_LoginTest
+
+2018-07-02 10:46:40 - [TEST_STEP][FAILED] - Statement - Try: Unable to start app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\HIUP-2.2.2(68).apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\:\\Users\\Acer\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s ce12160cab7a2c4b0c install C\:\\Users\\Acer\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v1.12.0.apk' timed out after 20000ms'; Stderr: ''; Code: 'null' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47.70 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-07-02 10:46:40 - [TEST_STEP][PASSED] - Statement - email = "jmeter12345@gmail.com": null
+
+2018-07-02 10:46:40 - [TEST_STEP][PASSED] - Statement - pass = "y@nzEE2018": null
+
+2018-07-02 10:46:40 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\HIUP-2.2.2(68).apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\:\\Users\\Acer\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s ce12160cab7a2c4b0c install C\:\\Users\\Acer\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v1.12.0.apk' timed out after 20000ms'; Stderr: ''; Code: 'null' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47.70 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-07-02 10:47:34 - [MESSAGE][FAILED] - Unable to start app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\HIUP-2.2.2(68).apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\:\\Users\\Acer\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s ce12160cab7a2c4b0c install C\:\\Users\\Acer\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v1.12.0.apk' timed out after 20000ms'; Stderr: ''; Code: 'null' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47.70 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-07-02 10:47:34 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-07-02 10:47:34 - [TEST_STEP][PASSED] - Statement - out.println("Unable to login"): null
+
+2018-07-02 10:47:34 - [TEST_STEP][PASSED] - Statement - out.println(e.getMessage()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JobFeedTest" classname="Test Cases/JobFeedTest" status="PASSED">
+         <system-out><![CDATA[2018-07-02 10:47:34 - [TEST_CASE][PASSED] - Test Cases/JobFeedTest: Test Cases/JobFeedTest
+
+2018-07-02 10:47:35 - [TEST_STEP][PASSED] - Statement - Try: Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 10:47:35 - [TEST_STEP][PASSED] - tap: Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 10:47:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 10:47:35 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-07-02 10:47:35 - [TEST_STEP][PASSED] - Statement - out.println("Unable to test Job Feed Menu."): null
+
+2018-07-02 10:47:35 - [TEST_STEP][PASSED] - Statement - out.println(e.getMessage()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-02 10:46:39 - [TEST_SUITE][PASSED] - HiUpTestSuite: Test Cases/JobFeedTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

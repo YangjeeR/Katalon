@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KatalonSuite" time="13" tests="0" failures="1" errors="0">
+   <testsuite name="KatalonSuite" tests="0" failures="1" errors="0" time="13" timestamp="2018-07-05 10:11:22" hostname="Acer - DESKTOP-O5SIUU5" id="Test Suites/KatalonSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\KatalonTutorial\\Reports\\KatalonSuite\\20180705_100852"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\KatalonTutorial\\Reports\\KatalonSuite\\20180705_100852\\execution0.log, C:\\Users\\Acer\\Katalon Studio\\KatalonTutorial\\Reports\\KatalonSuite\\20180705_100852\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - DESKTOP-O5SIUU5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="192.168.210.2"/>
+         <property name="sessionId" value="15d66c25-99f9-475b-ab63-af1c35cd3302"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WebRegressionTest" classname="Test Cases/WebRegressionTest" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Yangjee' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42239/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 15d66c25-99f9-475b-ab63-af1c35cd3302
+*** Element info: {Using=xpath, value=id(&quot;userName&quot;)/p[1]/input[1]})"/>
+         <system-out><![CDATA[2018-07-05 10:11:23 - [TEST_CASE][FAILED] - Test Cases/WebRegressionTest: Test Cases/WebRegressionTest FAILED because (of) Unable to set text 'Yangjee' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42239/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 15d66c25-99f9-475b-ab63-af1c35cd3302
+*** Element info: {Using=xpath, value=id("userName")/p[1]/input[1]})
+
+2018-07-05 10:11:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'
+
+2018-07-05 10:11:23 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-05 10:11:23 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-07-05 10:11:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'
+
+2018-07-05 10:11:32 - [MESSAGE][PASSED] - Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'
+
+2018-07-05 10:11:32 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getRowNumbers(), (i++)]): Reading excel file with source file 'C:\Users\Acer\Desktop\user_details.xlsx' and sheet name 'Sheet1'
+
+2018-07-05 10:11:34 - [TEST_STEP][PASSED] - Statement - user_detail(com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getValue("Username", i), com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getValue("Password", i)): Reading excel file with source file 'C:\Users\Acer\Desktop\user_details.xlsx' and sheet name 'Sheet1'
+
+2018-07-05 10:11:34 - [TEST_STEP][FAILED] - setText: Unable to set text 'Yangjee' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42239/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 15d66c25-99f9-475b-ab63-af1c35cd3302
+*** Element info: {Using=xpath, value=id("userName")/p[1]/input[1]})
+
+2018-07-05 10:11:34 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-05 10:11:34 - [MESSAGE][FAILED] - Unable to set text 'Yangjee' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42239/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 15d66c25-99f9-475b-ab63-af1c35cd3302
+*** Element info: {Using=xpath, value=id("userName")/p[1]/input[1]})
+
+2018-07-05 10:11:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-07-05 10:11:34 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-05 10:11:35 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-07-05 10:11:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:11:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-07-05 10:11:23 - [TEST_CASE][FAILED] - Test Cases/WebRegressionTest: Test Cases/WebRegressionTest FAILED because (of) Unable to set text 'Yangjee' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42239/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 15d66c25-99f9-475b-ab63-af1c35cd3302
+*** Element info: {Using=xpath, value=id("userName")/p[1]/input[1]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-05 10:11:22 - [TEST_SUITE][FAILED] - KatalonSuite: Test Cases/WebRegressionTest FAILED because (of) Unable to set text 'Yangjee' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42239/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 15d66c25-99f9-475b-ab63-af1c35cd3302
+*** Element info: {Using=xpath, value=id("userName")/p[1]/input[1]})]]></system-out>
+      <system-err><![CDATA[2018-07-05 10:11:22 - [TEST_SUITE][FAILED] - KatalonSuite: Test Cases/WebRegressionTest FAILED because (of) Unable to set text 'Yangjee' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to find elements on closed window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CInternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42239/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true}
+Session ID: 15d66c25-99f9-475b-ab63-af1c35cd3302
+*** Element info: {Using=xpath, value=id("userName")/p[1]/input[1]})]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HiUpTestSuite,,,2018-07-03 12:24:53,2018-07-03 12:27:52,2m - 58.999s,PASSED
+,,,,,,
+Test Cases/HiUP_LoginTest,,,2018-07-03 12:24:54,2018-07-03 12:26:34,1m - 40.418s,PASSED
+Statement - Try,,,2018-07-03 12:24:54,2018-07-03 12:26:34,1m - 39.931s,PASSED
+,,,,,,
+Test Cases/WalletTest,,,2018-07-03 12:26:34,2018-07-03 12:27:34,59.435s,PASSED
+Statement - Try,,,2018-07-03 12:26:34,2018-07-03 12:27:34,59.131s,PASSED
+,,,,,,
+Test Cases/SettingsAndMoreTest,,,2018-07-03 12:27:34,2018-07-03 12:27:50,16.262s,PASSED
+Statement - Try,,,2018-07-03 12:27:34,2018-07-03 12:27:50,16.063s,PASSED

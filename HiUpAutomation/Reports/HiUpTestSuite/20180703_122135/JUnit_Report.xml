@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HiUpTestSuite" time="164" tests="3" failures="0" errors="0">
+   <testsuite name="HiUpTestSuite" tests="3" failures="0" errors="0" time="164" timestamp="2018-07-03 12:21:42" hostname="Acer - DESKTOP-O5SIUU5" id="Test Suites/HiUpTestSuite">
+      <properties>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\appium.log, C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\1530599899204.png, C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\1530599900076.png, C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\1530599931364.png, C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\1530599932216.png, C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\1530599963650.png, C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\1530599964478.png"/>
+         <property name="hostName" value="Acer - DESKTOP-O5SIUU5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G935F"/>
+         <property name="hostAddress" value="192.168.210.2"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="ce12160cab7a2c4b0c"/>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/HiUP_LoginTest" classname="Test Cases/HiUP_LoginTest" status="PASSED">
+         <system-out><![CDATA[2018-07-03 12:21:43 - [TEST_CASE][PASSED] - Test Cases/HiUP_LoginTest: Test Cases/HiUP_LoginTest
+
+2018-07-03 12:21:43 - [TEST_STEP][FAILED] - Statement - Try: Failed to tap on element 'Object Repository/android.widget.LinearLayout22' (Root cause: Object Object Repository/android.widget.LinearLayout22 not found)
+
+2018-07-03 12:21:43 - [TEST_STEP][PASSED] - Statement - email = "jmeter12345@gmail.com": null
+
+2018-07-03 12:21:43 - [TEST_STEP][PASSED] - Statement - pass = "y@nzEE2018": null
+
+2018-07-03 12:21:43 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\HIUP-2.2.2(68).apk'
+
+2018-07-03 12:22:24 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\HIUP-2.2.2(68).apk'
+
+2018-07-03 12:22:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-03 12:22:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 12:22:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-03 12:22:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-03 12:22:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 12:22:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-03 12:22:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat8'
+
+2018-07-03 12:22:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 12:22:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat8'
+
+2018-07-03 12:22:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Sign in'
+
+2018-07-03 12:22:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 12:22:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Sign in'
+
+2018-07-03 12:22:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button1 - LOGIN'
+
+2018-07-03 12:22:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 12:22:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button1 - LOGIN'
+
+2018-07-03 12:22:40 - [TEST_STEP][PASSED] - setText: Text 'jmeter12345@gmail.com' has been set to element 'Object Repository/android.widget.EditText0 - Email'
+
+2018-07-03 12:22:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 12:22:44 - [MESSAGE][PASSED] - Text 'jmeter12345@gmail.com' has been set to element 'Object Repository/android.widget.EditText0 - Email'
+
+2018-07-03 12:22:44 - [TEST_STEP][PASSED] - setText: Text 'y@nzEE2018' has been set to element 'Object Repository/android.widget.EditText1 - Password'
+
+2018-07-03 12:22:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 12:22:46 - [MESSAGE][PASSED] - Text 'y@nzEE2018' has been set to element 'Object Repository/android.widget.EditText1 - Password'
+
+2018-07-03 12:22:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button6 - Sign in'
+
+2018-07-03 12:22:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 12:22:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button6 - Sign in'
+
+2018-07-03 12:22:49 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/android.widget.LinearLayout22' (Root cause: Object Object Repository/android.widget.LinearLayout22 not found)
+
+2018-07-03 12:22:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 12:23:20 - [MESSAGE][FAILED] - Object Object Repository/android.widget.LinearLayout22 not found
+[[ATTACHMENT|C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\1530599899204.png]]
+
+2018-07-03 12:23:20 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/android.widget.LinearLayout22' (Root cause: Object Object Repository/android.widget.LinearLayout22 not found)
+[[ATTACHMENT|C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\1530599900076.png]]
+
+2018-07-03 12:23:20 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-07-03 12:23:20 - [TEST_STEP][PASSED] - Statement - out.println("Unable to login"): null
+
+2018-07-03 12:23:20 - [TEST_STEP][PASSED] - Statement - out.println(e.getMessage()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WalletTest" classname="Test Cases/WalletTest" status="PASSED">
+         <system-out><![CDATA[2018-07-03 12:23:20 - [TEST_CASE][PASSED] - Test Cases/WalletTest: Test Cases/WalletTest
+
+2018-07-03 12:23:21 - [TEST_STEP][FAILED] - Statement - Try: Failed to tap on element 'Object Repository/android.widget.LinearLayout22' (Root cause: Object Object Repository/android.widget.LinearLayout22 not found)
+
+2018-07-03 12:23:21 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/android.widget.LinearLayout22' (Root cause: Object Object Repository/android.widget.LinearLayout22 not found)
+
+2018-07-03 12:23:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 12:23:52 - [MESSAGE][FAILED] - Object Object Repository/android.widget.LinearLayout22 not found
+[[ATTACHMENT|C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\1530599931364.png]]
+
+2018-07-03 12:23:53 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/android.widget.LinearLayout22' (Root cause: Object Object Repository/android.widget.LinearLayout22 not found)
+[[ATTACHMENT|C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\1530599932216.png]]
+
+2018-07-03 12:23:53 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-07-03 12:23:53 - [TEST_STEP][PASSED] - Statement - out.println("Unable test Wallet Menu."): null
+
+2018-07-03 12:23:53 - [TEST_STEP][PASSED] - Statement - out.println(e.getMessage()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SettingsAndMoreTest" classname="Test Cases/SettingsAndMoreTest" status="PASSED">
+         <system-out><![CDATA[2018-07-03 12:23:53 - [TEST_CASE][PASSED] - Test Cases/SettingsAndMoreTest: Test Cases/SettingsAndMoreTest
+
+2018-07-03 12:23:53 - [TEST_STEP][FAILED] - Statement - Try: Failed to tap on element 'Object Repository/android.widget.LinearLayout22' (Root cause: Object Object Repository/android.widget.LinearLayout22 not found)
+
+2018-07-03 12:23:53 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/android.widget.LinearLayout22' (Root cause: Object Object Repository/android.widget.LinearLayout22 not found)
+
+2018-07-03 12:23:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 12:24:24 - [MESSAGE][FAILED] - Object Object Repository/android.widget.LinearLayout22 not found
+[[ATTACHMENT|C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\1530599963650.png]]
+
+2018-07-03 12:24:25 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/android.widget.LinearLayout22' (Root cause: Object Object Repository/android.widget.LinearLayout22 not found)
+[[ATTACHMENT|C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_122135\\1530599964478.png]]
+
+2018-07-03 12:24:25 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-07-03 12:24:25 - [TEST_STEP][PASSED] - Statement - out.println("Unable test Settings Menu."): null
+
+2018-07-03 12:24:25 - [TEST_STEP][PASSED] - Statement - out.println(e.getMessage()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 12:21:42 - [TEST_SUITE][PASSED] - HiUpTestSuite: Test Cases/SettingsAndMoreTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+KatalonSuite,Chrome 67.0.3396.99,,2018-07-05 10:10:27,2018-07-05 10:10:44,17.492s,FAILED
+,,,,,,
+Test Cases/WebRegressionTest,Chrome 67.0.3396.99,,2018-07-05 10:10:28,2018-07-05 10:10:44,16.383s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.99,,2018-07-05 10:10:28,2018-07-05 10:10:36,8.240s,PASSED
+"Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getRowNumbers(), (i++)])",Chrome 67.0.3396.99,,2018-07-05 10:10:37,2018-07-05 10:10:38,1.169s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-05 10:10:38,2018-07-05 10:10:38,0.300s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-05 10:10:38,2018-07-05 10:10:43,5.137s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-05 10:10:43,2018-07-05 10:10:43,0.111s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.99,,2018-07-05 10:10:43,2018-07-05 10:10:44,0.939s,PASSED

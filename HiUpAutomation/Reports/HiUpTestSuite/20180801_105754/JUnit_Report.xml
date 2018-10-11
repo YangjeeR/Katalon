@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HiUpTestSuite" time="33" tests="1" failures="1" errors="0">
+   <testsuite name="HiUpTestSuite" tests="1" failures="1" errors="0" time="33" timestamp="2018-08-01 10:58:01" hostname="Acer - DESKTOP-O5SIUU5" id="Test Suites/HiUpTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180801_105754"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180801_105754\\appium.log, C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180801_105754\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - DESKTOP-O5SIUU5"/>
+         <property name="hostAddress" value="192.168.210.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/HiUP_LoginTest" classname="Test Cases/HiUP_LoginTest" status="PASSED">
+         <system-out><![CDATA[2018-08-01 10:58:02 - [TEST_CASE][PASSED] - Test Cases/HiUP_LoginTest: Test Cases/HiUP_LoginTest
+
+2018-08-01 10:58:02 - [TEST_STEP][FAILED] - Statement - Try: Unable to start app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-08-01 10:58:02 - [TEST_STEP][PASSED] - Statement - email = "jmeter12345@gmail.com": null
+
+2018-08-01 10:58:02 - [TEST_STEP][PASSED] - Statement - pass = "y@nzEE2018": null
+
+2018-08-01 10:58:02 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-08-01 10:58:34 - [MESSAGE][FAILED] - Unable to start app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-08-01 10:58:34 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-08-01 10:58:34 - [TEST_STEP][PASSED] - Statement - out.println("Unable to login"): null
+
+2018-08-01 10:58:34 - [TEST_STEP][PASSED] - Statement - out.println(e.getMessage()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JobFeedTest" classname="Test Cases/JobFeedTest" status="FAILED">
+         <failure type="FAILED" message="No application is started yet."/>
+         <system-out><![CDATA[2018-08-01 10:58:34 - [TEST_CASE][FAILED] - Test Cases/JobFeedTest: Test Cases/JobFeedTest FAILED because (of) No application is started yet.
+
+2018-08-01 10:58:35 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null]]></system-out>
+         <system-err><![CDATA[2018-08-01 10:58:34 - [TEST_CASE][FAILED] - Test Cases/JobFeedTest: Test Cases/JobFeedTest FAILED because (of) No application is started yet.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-01 10:58:01 - [TEST_SUITE][FAILED] - HiUpTestSuite: Test Cases/JobFeedTest FAILED because (of) No application is started yet.]]></system-out>
+      <system-err><![CDATA[2018-08-01 10:58:01 - [TEST_SUITE][FAILED] - HiUpTestSuite: Test Cases/JobFeedTest FAILED because (of) No application is started yet.]]></system-err>
+   </testsuite>
+</testsuites>

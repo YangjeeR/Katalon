@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KatalonSuite" time="28" tests="1" failures="0" errors="0">
+   <testsuite name="KatalonSuite" tests="1" failures="0" errors="0" time="28" timestamp="2018-07-05 09:59:01" hostname="Acer - DESKTOP-O5SIUU5" id="Test Suites/KatalonSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\KatalonTutorial\\Reports\\KatalonSuite\\20180705_095854"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\KatalonTutorial\\Reports\\KatalonSuite\\20180705_095854\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - DESKTOP-O5SIUU5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.210.2"/>
+         <property name="sessionId" value="f1b13a2c-0c0c-4fd7-847f-35b1f73f44ea"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WebRegressionTest" classname="Test Cases/WebRegressionTest" status="PASSED">
+         <system-out><![CDATA[2018-07-05 09:59:01 - [TEST_CASE][PASSED] - Test Cases/WebRegressionTest: Test Cases/WebRegressionTest
+
+2018-07-05 09:59:02 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getRowNumbers(), (i++)]): Reading excel file with source file 'C:\Users\Acer\Desktop\user_details.xlsx' and sheet name 'Sheet1'
+
+2018-07-05 09:59:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'
+
+2018-07-05 09:59:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'
+
+2018-07-05 09:59:12 - [TEST_STEP][PASSED] - Statement - user_detail(com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getValue("Username", i), com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getValue("Password", i)): Reading excel file with source file 'C:\Users\Acer\Desktop\user_details.xlsx' and sheet name 'Sheet1'
+
+2018-07-05 09:59:12 - [TEST_STEP][PASSED] - setText: Text 'Yangjee' is set on object 'Object Repository/Page_Execute Automation/input_UserName'
+
+2018-07-05 09:59:12 - [MESSAGE][PASSED] - Text 'Yangjee' is set on object 'Object Repository/Page_Execute Automation/input_UserName'
+
+2018-07-05 09:59:12 - [TEST_STEP][PASSED] - setText: Reading excel file with source file 'C:\Users\Acer\Desktop\user_details.xlsx' and sheet name 'Sheet1'
+
+2018-07-05 09:59:12 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Execute Automation/input_Password'
+
+2018-07-05 09:59:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_Login' is clicked on
+
+2018-07-05 09:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Login' is clicked on
+
+2018-07-05 09:59:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Execute Automation/select_SelectMr.Ms.'  using regular expression
+
+2018-07-05 09:59:13 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Execute Automation/select_SelectMr.Ms.'  using regular expression
+
+2018-07-05 09:59:13 - [TEST_STEP][PASSED] - com.kt.utility.CommonUtility.CheckdropdownlistElementExits: com.kt.utility.CommonUtility.CheckdropdownlistElementExits is PASSED
+
+2018-07-05 09:59:14 - [MESSAGE][PASSED] - com.kt.utility.CommonUtility.CheckdropdownlistElementExits is PASSED
+
+2018-07-05 09:59:14 - [TEST_STEP][PASSED] - setText: Text 'initial1' is set on object 'Object Repository/Page_Execute Automation/input_Initial'
+
+2018-07-05 09:59:14 - [MESSAGE][PASSED] - Text 'initial1' is set on object 'Object Repository/Page_Execute Automation/input_Initial'
+
+2018-07-05 09:59:14 - [TEST_STEP][PASSED] - setText: Text 'Yangjee' is set on object 'Object Repository/Page_Execute Automation/input_FirstName'
+
+2018-07-05 09:59:14 - [MESSAGE][PASSED] - Text 'Yangjee' is set on object 'Object Repository/Page_Execute Automation/input_FirstName'
+
+2018-07-05 09:59:14 - [TEST_STEP][PASSED] - setText: Text 'Rai' is set on object 'Object Repository/Page_Execute Automation/input_MiddleName'
+
+2018-07-05 09:59:14 - [MESSAGE][PASSED] - Text 'Rai' is set on object 'Object Repository/Page_Execute Automation/input_MiddleName'
+
+2018-07-05 09:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_Female' is clicked on
+
+2018-07-05 09:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Female' is clicked on
+
+2018-07-05 09:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_Save' is clicked on
+
+2018-07-05 09:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Save' is clicked on
+
+2018-07-05 09:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/a_HtmlPopup' is clicked on
+
+2018-07-05 09:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/a_HtmlPopup' is clicked on
+
+2018-07-05 09:59:15 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-07-05 09:59:15 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-07-05 09:59:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Popup Window/select_SelectMr.Ms.'  using regular expression
+
+2018-07-05 09:59:16 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Popup Window/select_SelectMr.Ms.'  using regular expression
+
+2018-07-05 09:59:16 - [TEST_STEP][PASSED] - setText: Text 'initial1' is set on object 'Object Repository/Page_Popup Window/input_Initial'
+
+2018-07-05 09:59:16 - [MESSAGE][PASSED] - Text 'initial1' is set on object 'Object Repository/Page_Popup Window/input_Initial'
+
+2018-07-05 09:59:16 - [TEST_STEP][PASSED] - setText: Text 'Yangjee' is set on object 'Object Repository/Page_Popup Window/input_FirstName'
+
+2018-07-05 09:59:16 - [MESSAGE][PASSED] - Text 'Yangjee' is set on object 'Object Repository/Page_Popup Window/input_FirstName'
+
+2018-07-05 09:59:16 - [TEST_STEP][PASSED] - setText: Text 'Rai' is set on object 'Object Repository/Page_Popup Window/input_MiddleName'
+
+2018-07-05 09:59:16 - [MESSAGE][PASSED] - Text 'Rai' is set on object 'Object Repository/Page_Popup Window/input_MiddleName'
+
+2018-07-05 09:59:16 - [TEST_STEP][PASSED] - setText: Text 'Rai' is set on object 'Object Repository/Page_Popup Window/input_LastName'
+
+2018-07-05 09:59:16 - [MESSAGE][PASSED] - Text 'Rai' is set on object 'Object Repository/Page_Popup Window/input_LastName'
+
+2018-07-05 09:59:16 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-07-05 09:59:16 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-07-05 09:59:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_generate' is clicked on
+
+2018-07-05 09:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_generate' is clicked on
+
+2018-07-05 09:59:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 09:59:17 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-05 09:59:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'
+
+2018-07-05 09:59:25 - [MESSAGE][PASSED] - Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'
+
+2018-07-05 09:59:25 - [TEST_STEP][PASSED] - Statement - user_detail(com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getValue("Username", i), com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getValue("Password", i)): Reading excel file with source file 'C:\Users\Acer\Desktop\user_details.xlsx' and sheet name 'Sheet1'
+
+2018-07-05 09:59:25 - [TEST_STEP][PASSED] - setText: Text 'Pratik' is set on object 'Object Repository/Page_Execute Automation/input_UserName'
+
+2018-07-05 09:59:25 - [MESSAGE][PASSED] - Text 'Pratik' is set on object 'Object Repository/Page_Execute Automation/input_UserName'
+
+2018-07-05 09:59:25 - [TEST_STEP][PASSED] - setText: Browser is closed
+
+2018-07-05 09:59:25 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_Execute Automation/input_Password'
+
+2018-07-05 09:59:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_Login' is clicked on
+
+2018-07-05 09:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Login' is clicked on
+
+2018-07-05 09:59:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Execute Automation/select_SelectMr.Ms.'  using regular expression
+
+2018-07-05 09:59:26 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Execute Automation/select_SelectMr.Ms.'  using regular expression
+
+2018-07-05 09:59:26 - [TEST_STEP][PASSED] - com.kt.utility.CommonUtility.CheckdropdownlistElementExits: com.kt.utility.CommonUtility.CheckdropdownlistElementExits is PASSED
+
+2018-07-05 09:59:26 - [MESSAGE][PASSED] - com.kt.utility.CommonUtility.CheckdropdownlistElementExits is PASSED
+
+2018-07-05 09:59:26 - [TEST_STEP][PASSED] - setText: Text 'initial2' is set on object 'Object Repository/Page_Execute Automation/input_Initial'
+
+2018-07-05 09:59:26 - [MESSAGE][PASSED] - Text 'initial2' is set on object 'Object Repository/Page_Execute Automation/input_Initial'
+
+2018-07-05 09:59:26 - [TEST_STEP][PASSED] - setText: Text 'Pratik' is set on object 'Object Repository/Page_Execute Automation/input_FirstName'
+
+2018-07-05 09:59:27 - [MESSAGE][PASSED] - Text 'Pratik' is set on object 'Object Repository/Page_Execute Automation/input_FirstName'
+
+2018-07-05 09:59:27 - [TEST_STEP][PASSED] - setText: Text 'Shrestha' is set on object 'Object Repository/Page_Execute Automation/input_MiddleName'
+
+2018-07-05 09:59:27 - [MESSAGE][PASSED] - Text 'Shrestha' is set on object 'Object Repository/Page_Execute Automation/input_MiddleName'
+
+2018-07-05 09:59:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_Female' is clicked on
+
+2018-07-05 09:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Female' is clicked on
+
+2018-07-05 09:59:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_Save' is clicked on
+
+2018-07-05 09:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Save' is clicked on
+
+2018-07-05 09:59:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/a_HtmlPopup' is clicked on
+
+2018-07-05 09:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/a_HtmlPopup' is clicked on
+
+2018-07-05 09:59:27 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-07-05 09:59:27 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-07-05 09:59:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Popup Window/select_SelectMr.Ms.'  using regular expression
+
+2018-07-05 09:59:28 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Popup Window/select_SelectMr.Ms.'  using regular expression
+
+2018-07-05 09:59:28 - [TEST_STEP][PASSED] - setText: Text 'initial2' is set on object 'Object Repository/Page_Popup Window/input_Initial'
+
+2018-07-05 09:59:28 - [MESSAGE][PASSED] - Text 'initial2' is set on object 'Object Repository/Page_Popup Window/input_Initial'
+
+2018-07-05 09:59:28 - [TEST_STEP][PASSED] - setText: Text 'Pratik' is set on object 'Object Repository/Page_Popup Window/input_FirstName'
+
+2018-07-05 09:59:28 - [MESSAGE][PASSED] - Text 'Pratik' is set on object 'Object Repository/Page_Popup Window/input_FirstName'
+
+2018-07-05 09:59:28 - [TEST_STEP][PASSED] - setText: Text 'Rai' is set on object 'Object Repository/Page_Popup Window/input_MiddleName'
+
+2018-07-05 09:59:29 - [MESSAGE][PASSED] - Text 'Rai' is set on object 'Object Repository/Page_Popup Window/input_MiddleName'
+
+2018-07-05 09:59:29 - [TEST_STEP][PASSED] - setText: Text 'Shrestha' is set on object 'Object Repository/Page_Popup Window/input_LastName'
+
+2018-07-05 09:59:29 - [MESSAGE][PASSED] - Text 'Shrestha' is set on object 'Object Repository/Page_Popup Window/input_LastName'
+
+2018-07-05 09:59:29 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-07-05 09:59:29 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-07-05 09:59:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_generate' is clicked on
+
+2018-07-05 09:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_generate' is clicked on
+
+2018-07-05 09:59:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 09:59:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-05 09:59:01 - [TEST_SUITE][PASSED] - KatalonSuite: Test Cases/WebRegressionTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

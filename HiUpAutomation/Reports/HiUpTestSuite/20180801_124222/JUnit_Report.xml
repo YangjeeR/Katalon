@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HiUpTestSuite" time="99" tests="1" failures="0" errors="0">
+   <testsuite name="HiUpTestSuite" tests="1" failures="0" errors="0" time="99" timestamp="2018-08-01 12:42:29" hostname="Acer - DESKTOP-O5SIUU5" id="Test Suites/HiUpTestSuite">
+      <properties>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180801_124222"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180801_124222\\appium.log, C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180801_124222\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - DESKTOP-O5SIUU5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G935F"/>
+         <property name="hostAddress" value="192.168.210.2"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="ce12160cab7a2c4b0c"/>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/SignUpTest" classname="Test Cases/SignUpTest" status="PASSED">
+         <system-out><![CDATA[2018-08-01 12:42:29 - [TEST_CASE][PASSED] - Test Cases/SignUpTest: Test Cases/SignUpTest
+
+2018-08-01 12:42:30 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-08-01 12:42:30 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk'
+
+2018-08-01 12:43:16 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk'
+
+2018-08-01 12:43:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-08-01 12:43:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-01 12:43:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-08-01 12:43:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-08-01 12:43:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-01 12:43:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-08-01 12:43:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat8'
+
+2018-08-01 12:43:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-01 12:43:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat8'
+
+2018-08-01 12:43:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Sign in'
+
+2018-08-01 12:43:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-01 12:43:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Sign in'
+
+2018-08-01 12:43:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button2 - SIGN UP'
+
+2018-08-01 12:43:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-01 12:43:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button2 - SIGN UP'
+
+2018-08-01 12:43:35 - [TEST_STEP][PASSED] - Statement - email = "yangjee123456@hiupapp.com": null
+
+2018-08-01 12:43:35 - [TEST_STEP][PASSED] - setText: Text 'jmeter2001@gmail.com' has been set to element 'Object Repository/android.widget.EditText0 - Email address'
+
+2018-08-01 12:43:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-01 12:43:38 - [MESSAGE][PASSED] - Text 'jmeter2001@gmail.com' has been set to element 'Object Repository/android.widget.EditText0 - Email address'
+
+2018-08-01 12:43:38 - [TEST_STEP][PASSED] - setText: Text 'jmeter2001@gmail.com' has been set to element 'Object Repository/android.widget.EditText1 - Confirm email address'
+
+2018-08-01 12:43:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-01 12:43:41 - [MESSAGE][PASSED] - Text 'jmeter2001@gmail.com' has been set to element 'Object Repository/android.widget.EditText1 - Confirm email address'
+
+2018-08-01 12:43:41 - [TEST_STEP][PASSED] - setText: Text 'Pratik' has been set to element 'Object Repository/android.widget.EditText2 - First name'
+
+2018-08-01 12:43:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-01 12:43:44 - [MESSAGE][PASSED] - Text 'Pratik' has been set to element 'Object Repository/android.widget.EditText2 - First name'
+
+2018-08-01 12:43:44 - [TEST_STEP][PASSED] - setText: Text 'Shrestha' has been set to element 'Object Repository/android.widget.EditText3 - Last name'
+
+2018-08-01 12:43:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-01 12:43:47 - [MESSAGE][PASSED] - Text 'Shrestha' has been set to element 'Object Repository/android.widget.EditText3 - Last name'
+
+2018-08-01 12:43:47 - [TEST_STEP][PASSED] - setText: Text 'y@nzEE2018' has been set to element 'Object Repository/android.widget.EditText4 - Password'
+
+2018-08-01 12:43:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-01 12:43:50 - [MESSAGE][PASSED] - Text 'y@nzEE2018' has been set to element 'Object Repository/android.widget.EditText4 - Password'
+
+2018-08-01 12:43:50 - [TEST_STEP][PASSED] - setText: Text 'y@nzEE2018' has been set to element 'Object Repository/android.widget.EditText5 - Confirm password'
+
+2018-08-01 12:43:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-01 12:43:53 - [MESSAGE][PASSED] - Text 'y@nzEE2018' has been set to element 'Object Repository/android.widget.EditText5 - Confirm password'
+
+2018-08-01 12:43:53 - [TEST_STEP][PASSED] - Statement - verticalSwipe(): null
+
+2018-08-01 12:43:53 - [TEST_STEP][PASSED] - Statement - width = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getDeviceWidth(): Current device physical width is 1440
+
+2018-08-01 12:43:54 - [MESSAGE][PASSED] - Current device physical width is 1440
+
+2018-08-01 12:43:54 - [TEST_STEP][PASSED] - Statement - startX = width / 2: null
+
+2018-08-01 12:43:54 - [TEST_STEP][PASSED] - Statement - endX = startX: null
+
+2018-08-01 12:43:54 - [TEST_STEP][PASSED] - Statement - startY = width * 0.30: null
+
+2018-08-01 12:43:54 - [TEST_STEP][PASSED] - Statement - endY = width * 0.70: null
+
+2018-08-01 12:43:54 - [TEST_STEP][PASSED] - swipe: Swiped from 720,1,008 to 720,432
+
+2018-08-01 12:43:56 - [MESSAGE][PASSED] - Swiped from 720,1,008 to 720,432
+
+2018-08-01 12:43:56 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): Reading excel file with source file 'C:\Users\Acer\Desktop\selenium\exceldata\appiumsignup.xlsx' and sheet name 'Sheet1'
+
+2018-08-01 12:43:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-08-01 12:44:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.CheckBox0 (1)'
+
+2018-08-01 12:44:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-01 12:44:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.CheckBox0 (1)'
+
+2018-08-01 12:44:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Continue'
+
+2018-08-01 12:44:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Continue'
+
+2018-08-01 12:44:06 - [TEST_STEP][PASSED] - setText: Reading excel file with source file 'C:\Users\Acer\Desktop\selenium\exceldata\appiumsignup.xlsx' and sheet name 'Sheet1'
+
+2018-08-01 12:44:06 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-08-01 12:44:06 - [TEST_STEP][PASSED] - Statement - out.println("Unable to sign up"): null
+
+2018-08-01 12:44:06 - [TEST_STEP][PASSED] - Statement - out.println(e.getMessage()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-01 12:42:29 - [TEST_SUITE][PASSED] - HiUpTestSuite: Test Cases/SignUpTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

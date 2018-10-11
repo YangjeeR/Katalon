@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KatalonSuite" time="17" tests="0" failures="1" errors="0">
+   <testsuite name="KatalonSuite" tests="0" failures="1" errors="0" time="17" timestamp="2018-07-05 10:10:27" hostname="Acer - DESKTOP-O5SIUU5" id="Test Suites/KatalonSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\KatalonTutorial\\Reports\\KatalonSuite\\20180705_100851"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\KatalonTutorial\\Reports\\KatalonSuite\\20180705_100851\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - DESKTOP-O5SIUU5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.210.2"/>
+         <property name="sessionId" value="97a2c6fa0e90b84d282318d59789cd6c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WebRegressionTest" classname="Test Cases/WebRegressionTest" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Pratik' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You generated a Javascript alert}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Acer\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 97a2c6fa0e90b84d282318d59789cd6c
+*** Element info: {Using=xpath, value=id(&quot;userName&quot;)/p[1]/input[1]})"/>
+         <system-out><![CDATA[2018-07-05 10:10:28 - [TEST_CASE][FAILED] - Test Cases/WebRegressionTest: Test Cases/WebRegressionTest FAILED because (of) Unable to set text 'Pratik' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You generated a Javascript alert}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Acer\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 97a2c6fa0e90b84d282318d59789cd6c
+*** Element info: {Using=xpath, value=id("userName")/p[1]/input[1]})
+
+2018-07-05 10:10:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'
+
+2018-07-05 10:10:28 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-05 10:10:28 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-07-05 10:10:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'
+
+2018-07-05 10:10:36 - [MESSAGE][PASSED] - Browser is opened with url: 'http://executeautomation.com/demosite/Login.html'
+
+2018-07-05 10:10:37 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getRowNumbers(), (i++)]): Reading excel file with source file 'C:\Users\Acer\Desktop\user_details.xlsx' and sheet name 'Sheet1'
+
+2018-07-05 10:10:38 - [TEST_STEP][PASSED] - Statement - user_detail(com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getValue("Username", i), com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getValue("Password", i)): Reading excel file with source file 'C:\Users\Acer\Desktop\user_details.xlsx' and sheet name 'Sheet1'
+
+2018-07-05 10:10:38 - [TEST_STEP][PASSED] - setText: Text 'Yangjee' is set on object 'Object Repository/Page_Execute Automation/input_UserName'
+
+2018-07-05 10:10:38 - [MESSAGE][PASSED] - Text 'Yangjee' is set on object 'Object Repository/Page_Execute Automation/input_UserName'
+
+2018-07-05 10:10:38 - [TEST_STEP][PASSED] - setText: Reading excel file with source file 'C:\Users\Acer\Desktop\user_details.xlsx' and sheet name 'Sheet1'
+
+2018-07-05 10:10:38 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Execute Automation/input_Password'
+
+2018-07-05 10:10:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_Login' is clicked on
+
+2018-07-05 10:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Login' is clicked on
+
+2018-07-05 10:10:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Execute Automation/select_SelectMr.Ms.'  using regular expression
+
+2018-07-05 10:10:39 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Execute Automation/select_SelectMr.Ms.'  using regular expression
+
+2018-07-05 10:10:39 - [TEST_STEP][PASSED] - com.kt.utility.CommonUtility.CheckdropdownlistElementExits: com.kt.utility.CommonUtility.CheckdropdownlistElementExits is PASSED
+
+2018-07-05 10:10:39 - [MESSAGE][PASSED] - com.kt.utility.CommonUtility.CheckdropdownlistElementExits is PASSED
+
+2018-07-05 10:10:39 - [TEST_STEP][PASSED] - setText: Text 'initial1' is set on object 'Object Repository/Page_Execute Automation/input_Initial'
+
+2018-07-05 10:10:40 - [MESSAGE][PASSED] - Text 'initial1' is set on object 'Object Repository/Page_Execute Automation/input_Initial'
+
+2018-07-05 10:10:40 - [TEST_STEP][PASSED] - setText: Text 'Yangjee' is set on object 'Object Repository/Page_Execute Automation/input_FirstName'
+
+2018-07-05 10:10:40 - [MESSAGE][PASSED] - Text 'Yangjee' is set on object 'Object Repository/Page_Execute Automation/input_FirstName'
+
+2018-07-05 10:10:40 - [TEST_STEP][PASSED] - setText: Text 'Rai' is set on object 'Object Repository/Page_Execute Automation/input_MiddleName'
+
+2018-07-05 10:10:40 - [MESSAGE][PASSED] - Text 'Rai' is set on object 'Object Repository/Page_Execute Automation/input_MiddleName'
+
+2018-07-05 10:10:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_Female' is clicked on
+
+2018-07-05 10:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Female' is clicked on
+
+2018-07-05 10:10:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_Save' is clicked on
+
+2018-07-05 10:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Save' is clicked on
+
+2018-07-05 10:10:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/a_HtmlPopup' is clicked on
+
+2018-07-05 10:10:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/a_HtmlPopup' is clicked on
+
+2018-07-05 10:10:41 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-07-05 10:10:41 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-07-05 10:10:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Popup Window/select_SelectMr.Ms.'  using regular expression
+
+2018-07-05 10:10:42 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Popup Window/select_SelectMr.Ms.'  using regular expression
+
+2018-07-05 10:10:42 - [TEST_STEP][PASSED] - setText: Text 'initial1' is set on object 'Object Repository/Page_Popup Window/input_Initial'
+
+2018-07-05 10:10:42 - [MESSAGE][PASSED] - Text 'initial1' is set on object 'Object Repository/Page_Popup Window/input_Initial'
+
+2018-07-05 10:10:42 - [TEST_STEP][PASSED] - setText: Text 'Yangjee' is set on object 'Object Repository/Page_Popup Window/input_FirstName'
+
+2018-07-05 10:10:43 - [MESSAGE][PASSED] - Text 'Yangjee' is set on object 'Object Repository/Page_Popup Window/input_FirstName'
+
+2018-07-05 10:10:43 - [TEST_STEP][PASSED] - setText: Text 'Rai' is set on object 'Object Repository/Page_Popup Window/input_MiddleName'
+
+2018-07-05 10:10:43 - [MESSAGE][PASSED] - Text 'Rai' is set on object 'Object Repository/Page_Popup Window/input_MiddleName'
+
+2018-07-05 10:10:43 - [TEST_STEP][PASSED] - setText: Text 'Rai' is set on object 'Object Repository/Page_Popup Window/input_LastName'
+
+2018-07-05 10:10:43 - [MESSAGE][PASSED] - Text 'Rai' is set on object 'Object Repository/Page_Popup Window/input_LastName'
+
+2018-07-05 10:10:43 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-07-05 10:10:43 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-07-05 10:10:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Execute Automation/input_generate' is clicked on
+
+2018-07-05 10:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_generate' is clicked on
+
+2018-07-05 10:10:43 - [TEST_STEP][PASSED] - Statement - user_detail(com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getValue("Username", i), com.kms.katalon.core.testdata.TestDataFactory.findTestData(user_details).getValue("Password", i)): Reading excel file with source file 'C:\Users\Acer\Desktop\user_details.xlsx' and sheet name 'Sheet1'
+
+2018-07-05 10:10:43 - [TEST_STEP][FAILED] - setText: Unable to set text 'Pratik' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You generated a Javascript alert}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Acer\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 97a2c6fa0e90b84d282318d59789cd6c
+*** Element info: {Using=xpath, value=id("userName")/p[1]/input[1]})
+
+2018-07-05 10:10:43 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-05 10:10:43 - [MESSAGE][FAILED] - Unable to set text 'Pratik' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You generated a Javascript alert}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Acer\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 97a2c6fa0e90b84d282318d59789cd6c
+*** Element info: {Using=xpath, value=id("userName")/p[1]/input[1]})
+
+2018-07-05 10:10:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-07-05 10:10:43 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-05 10:10:43 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-07-05 10:10:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:10:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-07-05 10:10:28 - [TEST_CASE][FAILED] - Test Cases/WebRegressionTest: Test Cases/WebRegressionTest FAILED because (of) Unable to set text 'Pratik' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You generated a Javascript alert}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Acer\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 97a2c6fa0e90b84d282318d59789cd6c
+*** Element info: {Using=xpath, value=id("userName")/p[1]/input[1]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-05 10:10:27 - [TEST_SUITE][FAILED] - KatalonSuite: Test Cases/WebRegressionTest FAILED because (of) Unable to set text 'Pratik' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You generated a Javascript alert}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Acer\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 97a2c6fa0e90b84d282318d59789cd6c
+*** Element info: {Using=xpath, value=id("userName")/p[1]/input[1]})]]></system-out>
+      <system-err><![CDATA[2018-07-05 10:10:27 - [TEST_SUITE][FAILED] - KatalonSuite: Test Cases/WebRegressionTest FAILED because (of) Unable to set text 'Pratik' of object 'Object Repository/Page_Execute Automation/input_UserName' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You generated a Javascript alert}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Acer\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 97a2c6fa0e90b84d282318d59789cd6c
+*** Element info: {Using=xpath, value=id("userName")/p[1]/input[1]})]]></system-err>
+   </testsuite>
+</testsuites>

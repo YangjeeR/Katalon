@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HiUpTestSuite,,,2018-07-02 16:44:54,2018-07-02 16:47:35,2m - 41.492s,PASSED
+,,,,,,
+Test Cases/HiUP_LoginTest,,,2018-07-02 16:44:54,2018-07-02 16:46:29,1m - 34.463s,PASSED
+Statement - Try,,,2018-07-02 16:44:55,2018-07-02 16:46:29,1m - 33.918s,PASSED
+,,,,,,
+Test Cases/JobFeedTest,,,2018-07-02 16:46:29,2018-07-02 16:47:33,1m - 4.437s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,,2018-07-02 16:46:29,2018-07-02 16:46:29,0.001s,PASSED
+Statement - Try,,,2018-07-02 16:46:29,2018-07-02 16:47:33,1m - 3.897s,PASSED
+Statement - Catch (Exception e),,,2018-07-02 16:47:33,2018-07-02 16:47:33,0.014s,PASSED

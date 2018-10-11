@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HiUpTestSuite" time="151" tests="2" failures="0" errors="0">
+   <testsuite name="HiUpTestSuite" tests="2" failures="0" errors="0" time="151" timestamp="2018-06-29 14:32:18" hostname="Acer - DESKTOP-O5SIUU5" id="Test Suites/HiUpTestSuite">
+      <properties>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180629_143211"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180629_143211\\appium.log, C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180629_143211\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - DESKTOP-O5SIUU5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G935F"/>
+         <property name="hostAddress" value="192.168.210.2"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="ce12160cab7a2c4b0c"/>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/HiUP_LoginTest" classname="Test Cases/HiUP_LoginTest" status="PASSED">
+         <system-out><![CDATA[2018-06-29 14:32:19 - [TEST_CASE][PASSED] - Test Cases/HiUP_LoginTest: Test Cases/HiUP_LoginTest
+
+2018-06-29 14:32:20 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-06-29 14:32:20 - [TEST_STEP][PASSED] - Statement - email = "jmeter12345@gmail.com": null
+
+2018-06-29 14:32:20 - [TEST_STEP][PASSED] - Statement - pass = "y@nzEE2018": null
+
+2018-06-29 14:32:20 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\HIUP-2.2.2(68).apk'
+
+2018-06-29 14:33:09 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\HIUP-2.2.2(68).apk'
+
+2018-06-29 14:33:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-06-29 14:33:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:33:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-06-29 14:33:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-06-29 14:33:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:33:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-06-29 14:33:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat8'
+
+2018-06-29 14:33:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:33:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat8'
+
+2018-06-29 14:33:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Sign in'
+
+2018-06-29 14:33:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:33:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Sign in'
+
+2018-06-29 14:33:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button1 - LOGIN'
+
+2018-06-29 14:33:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:33:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button1 - LOGIN'
+
+2018-06-29 14:33:30 - [TEST_STEP][PASSED] - setText: Text 'jmeter12345@gmail.com' has been set to element 'Object Repository/android.widget.EditText0 - Email'
+
+2018-06-29 14:33:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:33:33 - [MESSAGE][PASSED] - Text 'jmeter12345@gmail.com' has been set to element 'Object Repository/android.widget.EditText0 - Email'
+
+2018-06-29 14:33:33 - [TEST_STEP][PASSED] - setText: Text 'y@nzEE2018' has been set to element 'Object Repository/android.widget.EditText1 - Password'
+
+2018-06-29 14:33:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:33:36 - [MESSAGE][PASSED] - Text 'y@nzEE2018' has been set to element 'Object Repository/android.widget.EditText1 - Password'
+
+2018-06-29 14:33:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button6 - Sign in'
+
+2018-06-29 14:33:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:33:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button6 - Sign in'
+
+2018-06-29 14:33:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-06-29 14:33:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:33:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-06-29 14:33:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-06-29 14:33:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:33:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-06-29 14:33:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.CheckedTextView3 - Profile'
+
+2018-06-29 14:33:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:33:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.CheckedTextView3 - Profile'
+
+2018-06-29 14:33:53 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-06-29 14:33:58 - [TEST_STEP][PASSED] - Statement - result = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(prof_email), 0): Text of element 'Object Repository/prof_email' is: 'jmeter12345@gmail.com'
+
+2018-06-29 14:33:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:33:58 - [MESSAGE][PASSED] - Text of element 'Object Repository/prof_email' is: 'jmeter12345@gmail.com'
+
+2018-06-29 14:33:58 - [TEST_STEP][PASSED] - Statement - out.println(result): null
+
+2018-06-29 14:33:58 - [TEST_STEP][PASSED] - Statement - If (result.equalsIgnoreCase(email)): null
+
+2018-06-29 14:33:58 - [TEST_STEP][PASSED] - Statement - out.println("Successfully logged in"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JobFeedTest" classname="Test Cases/JobFeedTest" status="PASSED">
+         <system-out><![CDATA[2018-06-29 14:33:58 - [TEST_CASE][PASSED] - Test Cases/JobFeedTest: Test Cases/JobFeedTest
+
+2018-06-29 14:33:59 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-06-29 14:33:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-06-29 14:33:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:34:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-06-29 14:34:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-06-29 14:34:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:34:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-06-29 14:34:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0'
+
+2018-06-29 14:34:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:34:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0'
+
+2018-06-29 14:34:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Refine'
+
+2018-06-29 14:34:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:34:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Refine'
+
+2018-06-29 14:34:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button2 - Reset'
+
+2018-06-29 14:34:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:34:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button2 - Reset'
+
+2018-06-29 14:34:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(20000): null
+
+2018-06-29 14:34:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView0'
+
+2018-06-29 14:34:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:34:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView0'
+
+2018-06-29 14:34:42 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-06-29 14:34:44 - [TEST_STEP][PASSED] - Statement - label_job = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(android.widget.TextView3 - Jobs): Finding Test Object with id 'Object Repository/android.widget.TextView3 - Jobs'
+
+2018-06-29 14:34:44 - [TEST_STEP][PASSED] - Statement - out.print("Error" + label_job): null
+
+2018-06-29 14:34:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Apply'
+
+2018-06-29 14:34:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 14:34:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Apply'
+
+2018-06-29 14:34:47 - [TEST_STEP][PASSED] - Statement - If (label_job.isDisplayed()): null
+
+2018-06-29 14:34:47 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-06-29 14:34:47 - [TEST_STEP][PASSED] - Statement - out.println("Unable to test Job Feed Menu."): null
+
+2018-06-29 14:34:47 - [TEST_STEP][PASSED] - Statement - out.println(e.getMessage()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-29 14:32:18 - [TEST_SUITE][PASSED] - HiUpTestSuite: Test Cases/JobFeedTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

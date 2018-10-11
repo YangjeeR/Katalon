@@ -1,0 +1,268 @@
+[35m[Appium][39m Appium support for versions of node < 8 has been deprecated and will be removed in a future version. Please upgrade!
+[35m[Appium][39m Welcome to Appium v1.8.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 56106
+[35m[Appium][39m   chromeDriverPort: 56107
+[35m[Appium][39m   tmpDir: C:\Users\Acer\AppData\Local\Temp\\Katalon\Appium\Temp1532941834123
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:56106
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[MJSONWP][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m58 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[MJSONWP][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m46 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"Name":"appWaitActivity","Value":"com.*","app":"C:\\Users\\Acer\\Desktop\\HiUp_uat_apk\\hiup23.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"ce12160cab7a2c4b0c","deviceName":"samsung SM-G950F (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"ce11171b65dd9c3a0c"},"capabilities":{"desiredCapabilities":{"Name":"appWaitActivity","Value":"com.*","app":"C:\\Users\\Acer\\Desktop\\HiUp_uat_apk\\hiup23.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"ce12160cab7a2c4b0c","deviceName":"samsung SM-G950F (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"ce11171b65dd9c3a0c"},"firstMatch":[{"platformName":"android"}]}}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.createSession() with args: [{"Name":"appWaitActivity","Value":"com.*","app":"C:\\Users\\Acer\\Desktop\\HiUp_uat_apk\\hiup23.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"ce12160cab7a2c4b0c","deviceName":"samsung SM-G950F (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"ce11171b65dd9c3a0c"},null,{"desiredCapabilities":{"Name":"appWaitActivity","Value":"com.*","app":"C:\\Users\\Acer\\Desktop\\HiUp_uat_apk\\hiup23.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"ce12160cab7a2c4b0c","deviceName":"samsung SM-G950F (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"ce11171b65dd9c3a0c"},"firstMatch":[{"platformName":"android"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1532941840187 (14:55:40 GMT+0545 (Nepal Standard Time))
+[35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[35m[Appium][39m The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["Name","Value","app","autoGrantPermissions","automationName","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[35m[Appium][39m Creating new AndroidUiautomator2Driver (v1.12.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   Name: appWaitActivity
+[35m[Appium][39m   Value: com.*
+[35m[Appium][39m   app: C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceId: ce12160cab7a2c4b0c
+[35m[Appium][39m   deviceName: samsung SM-G950F (Android 8.0.0)
+[35m[Appium][39m   fullReset: false
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: true
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   udid: ce11171b65dd9c3a0c
+[debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {"Name":"appWaitActivity","...
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: Name, Value, deviceId, platform.
+[35m[BaseDriver][39m Session created with session id: bce7f5d4-b623-40e5-b585-7b62b18da47b
+[35m[BaseDriver][39m Using local app 'C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[AndroidDriver][39m Getting Java version
+[35m[AndroidDriver][39m Java version is: 1.8.0_102
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Acer\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/Acer/.katalon/tools/android_sdk/build-tools/28.0.0
+[35m[ADB][39m Using adb.exe from C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[35m[AndroidDriver][39m Using device: ce11171b65dd9c3a0c
+[debug] [35m[ADB][39m Setting device id to ce11171b65dd9c3a0c
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 26
+[debug] [35m[ADB][39m Device API level: 26
+[debug] [35m[AndroidDriver][39m Parsing package and activity from app manifest
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\Acer\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\Acer\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\Acer\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\Acer\.katalon\tools\android_sdk\build-tools\28.0.0\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\Acer\.katalon\tools\android_sdk'?
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\Acer\.katalon\tools\android_sdk\build-tools\28.0.0\aapt.exe
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'co.olivemedia.hihoandroidwebapp'
+[35m[ADB][39m Main activity name: 'co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity'
+[debug] [35m[AndroidDriver][39m Parsed package and activity are: co.olivemedia.hihoandroidwebapp/co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 8.0.0
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell wm size'
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell wm density'
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': SM-G950F
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': samsung
+[debug] [35m[ADB][39m Device API level: 26
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell am force-stop io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Checking app cert for C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk
+[35m[ADB][39m Using apksigner.bat from C:\Users\Acer\.katalon\tools\android_sdk\build-tools\28.0.0\apksigner.bat
+[debug] [35m[ADB][39m Starting 'C:\Users\Acer\.katalon\tools\android_sdk\build-tools\28.0.0\apksigner.bat' with args 'verify,--print-certs,C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk'
+[debug] [35m[ADB][39m 'C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' is not signed with debug cert.
+[debug] [35m[ADB][39m Zip-aligning 'C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk'
+[35m[ADB][39m Checking whether zipalign is present
+[35m[ADB][39m Using zipalign.exe from C:\Users\Acer\.katalon\tools\android_sdk\build-tools\28.0.0\zipalign.exe
+[debug] [35m[ADB][39m Signing 'C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' with default cert
+[debug] [35m[ADB][39m Starting 'C:\Users\Acer\.katalon\tools\android_sdk\build-tools\28.0.0\apksigner.bat' with args 'sign,--key,C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.pk8,--cert,C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.x509.pem,C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk'
+[debug] [35m[ADB][39m Checking app cert for C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [35m[ADB][39m Starting 'C:\Users\Acer\.katalon\tools\android_sdk\build-tools\28.0.0\apksigner.bat' with args 'verify,--print-certs,C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m 'C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is not signed with debug cert.
+[debug] [35m[ADB][39m Zip-aligning 'C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m Signing 'C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' with default cert
+[debug] [35m[ADB][39m Starting 'C:\Users\Acer\.katalon\tools\android_sdk\build-tools\28.0.0\apksigner.bat' with args 'sign,--key,C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.pk8,--cert,C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.x509.pem,C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m Uninstalling io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell pm list packages io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell am force-stop io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c uninstall io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m 'adb uninstall io.appium.uiautomator2.server' command output: Success
+[35m[ADB][39m io.appium.uiautomator2.server was successfully uninstalled
+[debug] [35m[ADB][39m Uninstalling io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell am force-stop io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c uninstall io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m 'adb uninstall io.appium.uiautomator2.server.test' command output: Success
+[35m[ADB][39m io.appium.uiautomator2.server.test was successfully uninstalled
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell pm list packages io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m App is not installed
+[debug] [35m[ADB][39m App 'C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' not installed. Installing
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c install C\:\\Users\\Acer\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v1.12.0.apk'
+[debug] [35m[ADB][39m Install command stdout: Success
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m App is not installed
+[debug] [35m[ADB][39m App 'C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' not installed. Installing
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c install C\:\\Users\\Acer\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m Install command stdout: Success
+[debug] [35m[UiAutomator2][39m Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell pm list instrumentation'
+[debug] [35m[UiAutomator2][39m Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c wait-for-device'
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell pm list packages io.appium.settings'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell ps'
+[debug] [35m[ADB][39m Device API level: 26
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Device API level: 26
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell appops set io.appium.settings android\:mock_location allow'
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'null' and country: 'null'
+[debug] [35m[Logcat][39m Starting logcat capture
+[debug] [35m[AndroidDriver][39m Pushing unlock helper app to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.unlock
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell pm list packages io.appium.unlock'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.unlock'
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell dumpsys package io.appium.unlock'
+[debug] [35m[ADB][39m The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to 8200
+[debug] [35m[ADB][39m Forwarding system: 8200 to device: 6790
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c forward tcp\:8200 tcp\:6790'
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\Acer\AppData\Local\Temp\Katalon\Appium\Temp1532941834123\co.olivemedia.hihoandroidwebapp
+[debug] [35m[ADB][39m Extracting strings for language: default
+[35m[ADB][39m Successfully extracted 456 strings from 'C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c push C\:\\Users\\Acer\\AppData\\Local\\Temp\\Katalon\\Appium\\Temp1532941834123\\co.olivemedia.hihoandroidwebapp\\strings.json /data/local/tmp'
+[debug] [35m[ADB][39m Checking app cert for C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk
+[debug] [35m[ADB][39m Starting 'C:\Users\Acer\.katalon\tools\android_sdk\build-tools\28.0.0\apksigner.bat' with args 'verify,--print-certs,C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk'
+[debug] [35m[ADB][39m 'C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk' is not signed with debug cert.
+[debug] [35m[ADB][39m Zip-aligning 'C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk'
+[debug] [35m[ADB][39m Signing 'C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk' with default cert
+[debug] [35m[ADB][39m Starting 'C:\Users\Acer\.katalon\tools\android_sdk\build-tools\28.0.0\apksigner.bat' with args 'sign,--key,C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.pk8,--cert,C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.x509.pem,C:\Users\Acer\Desktop\HiUp_uat_apk\hiup23.apk'
+[debug] [35m[ADB][39m Getting install status for co.olivemedia.hihoandroidwebapp
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell pm list packages co.olivemedia.hihoandroidwebapp'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'co.olivemedia.hihoandroidwebapp'
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell dumpsys package co.olivemedia.hihoandroidwebapp'
+[debug] [35m[ADB][39m The installed 'co.olivemedia.hihoandroidwebapp' package does not require upgrade ('2.2.2' >= '2.2.2')
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell am force-stop io.appium.uiautomator2.server'
+[35m[UiAutomator2][39m Starting uiautomator2 server 1.12.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' and test from 'C:\Users\Acer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Running command: 'adb -s ce11171b65dd9c3a0c shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[35m[UiAutomator2][39m Waiting up to 20000ms for UiAutomator2 to be online...
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"Name":"appWaitActivity","Value":"com.*","app":"C:\\Users\\Acer\\Desktop\\HiUp_uat_apk\\hiup23.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"ce12160cab7a2c4b0c","deviceName":"samsung SM-G950F (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"ce11171b65dd9c3a0c"},"Name":"appWaitActivity","Value":"com.*","app":"C:\\Users\\Acer\\Desktop\\HiUp_uat_apk\\hiup23.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"ce12160cab7a2c4b0c","deviceName":"ce11171b65dd9c3a0c","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"Android","udid":"ce11171b65dd9c3a0c","deviceUDID":"ce11171b65dd9c3a0c","platformVersion":"8.0.0","deviceScreenSize":"...
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"e77f072d-a9d2-4221-9c48-9e0e6cf6dcad","status":0,"value":"Created Session"}
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell dumpsys window'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'co.olivemedia.hihoandroidwebapp/co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity'. Starting it ourselves
+[debug] [35m[ADB][39m Device API level: 26
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell am start -W -n co.olivemedia.hihoandroidwebapp/co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Waiting up to 20000ms for activity matching pkg: 'co.olivemedia.hihoandroidwebapp' and activity: 'co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity' to be focused
+[debug] [35m[ADB][39m Possible activities, to be checked: 'co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity', 'co.olivemedia.hihoandroidwebapp.co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity'
+[debug] [35m[ADB][39m Getting focused package and activity
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell dumpsys window windows'
+[debug] [35m[ADB][39m Found package: 'co.olivemedia.hihoandroidwebapp' and fully qualified activity name : 'co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity'
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/e77f072d-a9d2-4221-9c48-9e0e6cf6dcad/appium/device/pixel_ratio] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"e77f072d-a9d2-4221-9c48-9e0e6cf6dcad\",\"status\":0,\"value\":3}"
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/e77f072d-a9d2-4221-9c48-9e0e6cf6dcad/appium/device/system_bars] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"e77f072d-a9d2-4221-9c48-9e0e6cf6dcad\",\"status\":0,\"value\":{\"statusBar\":72}}"
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/e77f072d-a9d2-4221-9c48-9e0e6cf6dcad/window/current/size] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"e77f072d-a9d2-4221-9c48-9e0e6cf6dcad\",\"status\":0,\"value\":{\"height\":2076,\"width\":1080}}"
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session bce7f5d4-b623-40e5-b585-7b62b18da47b added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1532941871900 (14:56:11 GMT+0545 (Nepal Standard Time))
+[debug] [35m[MJSONWP][39m Responding to client with driver.createSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"Name":"appWaitActivity","Value":"com.*","app":"C:\\Users\\Acer\\Desktop\\HiUp_uat_apk\\hiup23.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"ce12160cab7a2c4b0c","deviceName":"samsung SM-G950F (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"ce11171b65dd9c3a0c"},"Name":"appWaitActivity","Value":"com.*","app":"C:\\Users\\Acer\\Desktop\\HiUp_uat_apk\\hiup23.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"ce12160cab7a2c4b0c","deviceName":"ce11171b65dd9c3a0c","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"Android","udid":"ce11171b65dd9c3a0c","deviceUDID":"ce11171b65dd9c3a0c","platformVersion":"8.0.0","deviceScreenSize":"1440x2960","deviceScree...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m31718 ms - 1326[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[W3C][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m55 ms - 55[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b/timeouts[39m
+[35m[HTTP][39m [90m{"type":"implicit","ms":60000}[39m
+[debug] [35m[W3C][39m Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":60000}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b/timeouts [39m[33m400[39m [90m31 ms - 5243[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b/source] to [GET http://localhost:8200/wd/hub/session/e77f072d-a9d2-4221-9c48-9e0e6cf6dcad/source] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"e77f072d-a9d2-4221-9c48-9e0e6cf6dcad\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"0\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"co.olivemedia.hihoandroidwebapp\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][1080,2076]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"co.olivemedia.hihoandroidwebapp\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\...
+[35m[JSONWP Proxy][39m Replacing sessionId e77f072d-a9d2-4221-9c48-9e0e6cf6dcad with bce7f5d4-b623-40e5-b585-7b62b18da47b
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b/source [39m[32m200[39m [90m737 ms - 2859[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["bce7f5d4-b623-40e5-b585-7b62b18da47b"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8200/wd/hub/session/e77f072d-a9d2-4221-9c48-9e0e6cf6dcad/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"e77f072d-a9d2-4221-9c48-9e0e6cf6dcad\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAIAAAAiJcX5AAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOzdeWBV5Z0\\/\\/nNDgCgRsaBEwZWguAYBtRqqKGq0U7UV0VaruNQNpljRgU5nBitOW6ECjh2waqcz\\noGPrAh2XVgNuqLgiEhURTERFIICsJsgSyPeP85vzu5OdLOQBX6+\\/Tu49996Tc7I87\\/M8z+eJIgAA\\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABg95Zq7QNocW3atMnOzt53\\n3327devWqVOnZcuWffbZZ1999dWmTZsqKytb++gAAIAa7OZBJSsrq1evXgMHDjz66KO7du2aSqXW\\nrFmzZs2aWbNmzZ49e+XKldu3b2\\/tYwQAAKranYNKVlZWfn7+ZZdddtBBB1V56uuvv37ttdf+\\/Oc\\/\\nf\\/bZZ7IKALuQnJyc4447Licnp3fv3h06dMjNzU1\\/tqioqKysrLi4uLS09L333istLW2t42yKIUOG\\nTJkypbWPAmhlu21QadOmzbHHHjt8+PDqKSUxc+bM++67b926dTvzwADY5WRnZ+fk5BQXF9e7Z25u\\n7tChQ0ePHl1WVta8x5CXl1dQUJCXl5eTk9PwV5WWls6ePXv69Om7UGIZMmTIFVdcMXDgwNY+kF1S\\nbm7u7bffXtsPSWlp6W233daQn2QIwW4bVPbee++f\\/OQn5557bvzl+vXrFy1aVFFRsf\\/++x9yyCHx\\ngxs3bhw3btwbb7xRUVHRagfaqp5\\/\\/vmG7HbXXXc988wzyZd33nlnx44dFy5cOGfOnE8++WTVqlXf\\n2BMINIvc3NwrrrgiLy8vOzs7fqS4uLiwsHD69Okt9H...
+[debug] [35m[MJSONWP][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAIAAAAiJcX5AAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeWBV5Z0//nNDgCgRsaBEwZWguAYBtRqqKGq0U7UV0VaruNQNpljRgU5nBitOW6ECjh2waqcz\noGPrAh2XVgNuqLgiEhURTERFIICsJsgSyPeP85vzu5OdLOQBX6+/Tu49996Tc7I87/M8z+eJIgAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABg95Zq7QNocW3atMnOzt53\n3327devWqVOnZcuWffbZZ1999dWmTZsqKytb++gAAIAa7OZBJSsrq1evXgMHDjz66KO7du2aSqXW\nrFmzZs2aWbNmzZ49e+XKldu3b2/tYwQAAKranYNKVlZWfn7+ZZdddtBBB1V56uuvv37ttdf+/Oc/\nf/bZZ7IKALuQnJyc4447Licnp3fv3h06dMjNzU1/tqioqKysrLi4uLS09L333istLW2t42yKIUOG\nTJkypbWPAmhlu21QadOmzbHHHjt8+PDqKSUxc+bM++67b926dTvzwADY5WRnZ+fk5BQXF9e7Z25u\n7tChQ0ePHl1WVta8x5CXl1dQUJCXl5eTk9PwV5WWls6ePXv69Om7UGIZMmTIFVdcMXDgwNY+kF1S\nbm7u7bffXtsPSWlp6W233daQn2QIwW4bVPbee++f/OQn5557bvzl+vXrFy1aVFFRsf/++x9yyCHx\ngxs3bhw3btwbb7xRUVHRagfaqp5//vmG7HbXXXc988wzyZd33nlnx44dFy5cOGfOnE8++WTVqlXf\n2BMINIvc3NwrrrgiLy8vOzs7fqS4uLiwsHD69Okt9HE9evQoLCxs+P7jx4/Pzs4ePXr07NmzG7Jn\ncXHxLbfc0ixZJTs7+8ILLywoKNihfFJdcXHxtGnTZsyY0fRDalFxSomiSFBpnDFjxuTn59exw+zZ\ns0ePHr...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b/screenshot [39m[32m200[39m [90m429 ms - 57766[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b/source] to [GET http://localhost:8200/wd/hub/session/e77f072d-a9d2-4221-9c48-9e0e6cf6dcad/source] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"e77f072d-a9d2-4221-9c48-9e0e6cf6dcad\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"0\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"co.olivemedia.hihoandroidwebapp\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][1080,2076]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"co.olivemedia.hihoandroidwebapp\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\...
+[35m[JSONWP Proxy][39m Replacing sessionId e77f072d-a9d2-4221-9c48-9e0e6cf6dcad with bce7f5d4-b623-40e5-b585-7b62b18da47b
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b/source [39m[32m200[39m [90m786 ms - 10350[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["bce7f5d4-b623-40e5-b585-7b62b18da47b"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8200/wd/hub/session/e77f072d-a9d2-4221-9c48-9e0e6cf6dcad/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"e77f072d-a9d2-4221-9c48-9e0e6cf6dcad\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAIAAAAiJcX5AAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOzdd3xV9f348ZsQEkJYARKmIIIiQ0Sse+86qNtWsdW2WruotVTrblFrbbV+rXVULa6KFavirHVS\\na6VuxAGKDNmbDBJCBsnvj\\/i7XAIkQTG8Cc\\/nX+ec+7nnfg6Px\\/drXj0rraKiIgEAABBJ+paeAAAA\\nQF1CBQAACEeoAAAA4QgVAAAgHKECAACEI1QAAIBwhAoAABCOUAEAAMIRKgAAQDhCBQAACEeoAAAA\\n4QgVAAAgHKECAACEI1QAAIBwhAoAABCOUAEAAMIRKgAAQDhCBQAACEeoAAAA4QgVAAAgHKECAACE\\nI1QAAIBwhAoAABCOUAEAAMIRKgAAQDhCBQAACEeoAAAA4QgVAAAgHKECAACEI1QAAIBwhAoAABCO\\nUAEAAMIRKgAAQDgZW3oCAGzFilauHP+vFye+897S5SuWFRSuWbOmc26Hzh1zh+0y6NRjjuyS13lL\\nTxCArVVaRUXFlp4DAFufVWWr\\/3T3\\/c+98trK0tINDmiVlXXgXl8bde7ZnTvmNvHcAGgGhAoAm+yj\\nadOvufkv02Z91uDI7l3yL\\/3pD\\/YZNvSrnxQAzYpQAWDTvP3+h7+85vqNnUhZX2bLllec\\/6NjDjnw\\nK50VAM2Me1QA2ASz5s674oab16+UHl3yu3XJb9GixaKlS2fPW5D6UUVl5XW33dWlc6fddxnUhDMF\\nYOvmjAoAjbWqbPX3L7y8zhVf2\\/fsce7pp3z94AOSWya+M+nOB\\/\\/xwcfTUod16dzprj9c3aNLftNM\\nFYCtnVABoLFu\\/9tDf33okdQtuw7c+Q+XjFr\\/dvnyio...
+[debug] [35m[MJSONWP][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAisCAIAAAAiJcX5AAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdd3xV9f348ZsQEkJYARKmIIIiQ0Sse+86qNtWsdW2WruotVTrblFrbbV+rXVULa6KFavirHVS\na6VuxAGKDNmbDBJCBsnvj/i7XAIkQTG8Cc/nX+ec+7nnfg6Px/drXj0rraKiIgEAABBJ+paeAAAA\nQF1CBQAACEeoAAAA4QgVAAAgHKECAACEI1QAAIBwhAoAABCOUAEAAMIRKgAAQDhCBQAACEeoAAAA\n4QgVAAAgHKECAACEI1QAAIBwhAoAABCOUAEAAMIRKgAAQDhCBQAACEeoAAAA4QgVAAAgHKECAACE\nI1QAAIBwhAoAABCOUAEAAMIRKgAAQDhCBQAACEeoAAAA4QgVAAAgHKECAACEI1QAAIBwhAoAABCO\nUAEAAMIRKgAAQDgZW3oCAGzFilauHP+vFye+897S5SuWFRSuWbOmc26Hzh1zh+0y6NRjjuyS13lL\nTxCArVVaRUXFlp4DAFufVWWr/3T3/c+98trK0tINDmiVlXXgXl8bde7ZnTvmNvHcAGgGhAoAm+yj\nadOvufkv02Z91uDI7l3yL/3pD/YZNvSrnxQAzYpQAWDTvP3+h7+85vqNnUhZX2bLllec/6NjDjnw\nK50VAM2Me1QA2ASz5s674oab16+UHl3yu3XJb9GixaKlS2fPW5D6UUVl5XW33dWlc6fddxnUhDMF\nYOvmjAoAjbWqbPX3L7y8zhVf2/fsce7pp3z94AOSWya+M+nOB//xwcfTUod16dzprj9c3aNLftNM\nFYCtnVABoLFu/9tDf33okdQtuw7c+Q+XjFr/dvnyiorLr//TyxPfSN143GEHjf7FyK98lvCF7H7s\nKVt6ChDOO8880vCgr4z3qADQKIuXLvvHM/9K3dI1r/MGKyWRSGRlZl5z4fkD+u2QuvG5V16rc5oF\nADZGqA...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b/screenshot [39m[32m200[39m [90m448 ms - 38246[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.deleteSession() with args: ["bce7f5d4-b623-40e5-b585-7b62b18da47b"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1532941919317 (14:56:59 GMT+0545 (Nepal Standard Time))
+[35m[Appium][39m Removing session bce7f5d4-b623-40e5-b585-7b62b18da47b from our master session list
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[debug] [35m[JSONWP Proxy][39m Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/e77f072d-a9d2-4221-9c48-9e0e6cf6dcad] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"e77f072d-a9d2-4221-9c48-9e0e6cf6dcad\",\"status\":0,\"value\":\"Session deleted\"}"
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c shell am force-stop co.olivemedia.hihoandroidwebapp'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8200 
+[debug] [35m[ADB][39m Running 'C:\Users\Acer\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s ce11171b65dd9c3a0c forward --remove tcp\:8200'
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1532941919727 (14:56:59 GMT+0545 (Nepal Standard Time))
+[debug] [35m[MJSONWP][39m Received response: null
+[debug] [35m[MJSONWP][39m But deleting session, so not returning
+[debug] [35m[MJSONWP][39m Responding to client with driver.deleteSession() result: null
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/bce7f5d4-b623-40e5-b585-7b62b18da47b [39m[32m200[39m [90m414 ms - 76[39m
+[35m[HTTP][39m [90m[39m

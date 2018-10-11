@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HiUpTestSuite,,,2018-08-01 10:59:39,2018-08-01 11:03:43,4m - 4.697s,PASSED
+,,,,,,
+Test Cases/HiUP_LoginTest,,,2018-08-01 10:59:39,2018-08-01 11:01:35,1m - 55.269s,PASSED
+Statement - Try,,,2018-08-01 10:59:40,2018-08-01 11:01:35,1m - 54.559s,PASSED
+,,,,,,
+Test Cases/JobFeedTest,,,2018-08-01 11:01:35,2018-08-01 11:03:39,2m - 4.772s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,,2018-08-01 11:01:35,2018-08-01 11:01:35,0.001s,PASSED
+Statement - Try,,,2018-08-01 11:01:35,2018-08-01 11:02:48,1m - 13.053s,PASSED
+Statement - width = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getDeviceWidth(),,,2018-08-01 11:02:48,2018-08-01 11:02:48,0.326s,PASSED
+Statement - startX = width / 2,,,2018-08-01 11:02:48,2018-08-01 11:02:48,0.001s,PASSED
+Statement - endX = startX,,,2018-08-01 11:02:48,2018-08-01 11:02:48,0.000s,PASSED
+Statement - startY = width * 0.30,,,2018-08-01 11:02:48,2018-08-01 11:02:48,0.043s,PASSED
+Statement - endY = width * 0.70,,,2018-08-01 11:02:48,2018-08-01 11:02:48,0.001s,PASSED
+swipe,,,2018-08-01 11:02:48,2018-08-01 11:02:51,2.398s,PASSED
+Statement - java.lang.Thread.sleep(2000),,,2018-08-01 11:02:51,2018-08-01 11:03:39,48.627s,FAILED
+Statement - Catch (Exception e),,,2018-08-01 11:03:39,2018-08-01 11:03:39,0.015s,PASSED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HiUpTestSuite,,,2018-07-02 15:30:17,2018-07-02 15:32:38,2m - 20.352s,FAILED
+,,,,,,
+Test Cases/HiUP_LoginTest,,,2018-07-02 15:30:18,2018-07-02 15:31:52,1m - 33.632s,PASSED
+Statement - Try,,,2018-07-02 15:30:19,2018-07-02 15:31:52,1m - 32.892s,PASSED
+,,,,,,
+Test Cases/TraningMycourseTest,,,2018-07-02 15:31:52,2018-07-02 15:32:03,10.883s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,,2018-07-02 15:31:52,2018-07-02 15:31:52,0.001s,PASSED
+Statement - Try,,,2018-07-02 15:31:52,2018-07-02 15:32:03,10.582s,PASSED
+,,,,,,
+Test Cases/LogOutTest,,,2018-07-02 15:32:03,2018-07-02 15:32:36,33.044s,FAILED
+tap,,,2018-07-02 15:32:03,2018-07-02 15:32:05,1.906s,PASSED
+tap,,,2018-07-02 15:32:05,2018-07-02 15:32:07,2.034s,PASSED
+tap,,,2018-07-02 15:32:07,2018-07-02 15:32:09,2.271s,PASSED
+tap,,,2018-07-02 15:32:09,2018-07-02 15:32:11,1.862s,PASSED
+tap,,,2018-07-02 15:32:11,2018-07-02 15:32:14,2.782s,PASSED
+Statement - java.lang.Thread.sleep(10000),,,2018-07-02 15:32:14,2018-07-02 15:32:24,10.001s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(android.widget.TextView0 - Job page), 10))",,,2018-07-02 15:32:24,2018-07-02 15:32:36,12.025s,FAILED

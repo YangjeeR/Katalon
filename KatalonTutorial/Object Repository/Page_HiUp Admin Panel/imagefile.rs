@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>imagefile</name>
+   <tag></tag>
+   <elementGuidId>395df839-bbc5-4ea7-bcc1-44b9eea41d5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;root&quot;]/div/div/div[2]/div[1]/div/div/div/div/form/div[1]/div[19]/div/div/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/div/div/div[2]/div[1]/div/div/div/div/form/div[1]/div[19]/div/div/div[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HiUpTestSuite" time="99" tests="1" failures="0" errors="1">
+   <testsuite name="HiUpTestSuite" tests="1" failures="0" errors="1" time="99" timestamp="2018-07-03 15:42:20" hostname="Acer - DESKTOP-O5SIUU5" id="Test Suites/HiUpTestSuite">
+      <properties>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_154214"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_154214\\appium.log, C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180703_154214\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - DESKTOP-O5SIUU5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G935F"/>
+         <property name="hostAddress" value="192.168.210.2"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="ce12160cab7a2c4b0c"/>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/HiUP_LoginTest" classname="Test Cases/HiUP_LoginTest" status="PASSED">
+         <system-out><![CDATA[2018-07-03 15:42:21 - [TEST_CASE][PASSED] - Test Cases/HiUP_LoginTest: Test Cases/HiUP_LoginTest
+
+2018-07-03 15:42:22 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-07-03 15:42:22 - [TEST_STEP][PASSED] - Statement - email = "jmeter12345@gmail.com": null
+
+2018-07-03 15:42:22 - [TEST_STEP][PASSED] - Statement - pass = "y@nzEE2018": null
+
+2018-07-03 15:42:22 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\HIUP-2.2.2(68).apk'
+
+2018-07-03 15:43:12 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\HIUP-2.2.2(68).apk'
+
+2018-07-03 15:43:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-03 15:43:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 15:43:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-03 15:43:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-03 15:43:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 15:43:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-03 15:43:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat8'
+
+2018-07-03 15:43:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 15:43:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat8'
+
+2018-07-03 15:43:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Sign in'
+
+2018-07-03 15:43:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 15:43:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Sign in'
+
+2018-07-03 15:43:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button1 - LOGIN'
+
+2018-07-03 15:43:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 15:43:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button1 - LOGIN'
+
+2018-07-03 15:43:31 - [TEST_STEP][PASSED] - setText: Text 'jmeter12345@gmail.com' has been set to element 'Object Repository/android.widget.EditText0 - Email'
+
+2018-07-03 15:43:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 15:43:34 - [MESSAGE][PASSED] - Text 'jmeter12345@gmail.com' has been set to element 'Object Repository/android.widget.EditText0 - Email'
+
+2018-07-03 15:43:34 - [TEST_STEP][PASSED] - setText: Text 'y@nzEE2018' has been set to element 'Object Repository/android.widget.EditText1 - Password'
+
+2018-07-03 15:43:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 15:43:37 - [MESSAGE][PASSED] - Text 'y@nzEE2018' has been set to element 'Object Repository/android.widget.EditText1 - Password'
+
+2018-07-03 15:43:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button6 - Sign in'
+
+2018-07-03 15:43:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 15:43:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button6 - Sign in'
+
+2018-07-03 15:43:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-03 15:43:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 15:43:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-03 15:43:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-03 15:43:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 15:43:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-03 15:43:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.CheckedTextView3 - Profile'
+
+2018-07-03 15:43:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 15:43:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.CheckedTextView3 - Profile'
+
+2018-07-03 15:43:52 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-07-03 15:43:57 - [TEST_STEP][PASSED] - Statement - result = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(prof_email), 0): Text of element 'Object Repository/prof_email' is: 'jmeter12345@gmail.com'
+
+2018-07-03 15:43:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 15:43:57 - [MESSAGE][PASSED] - Text of element 'Object Repository/prof_email' is: 'jmeter12345@gmail.com'
+
+2018-07-03 15:43:57 - [TEST_STEP][PASSED] - Statement - out.println(result): null
+
+2018-07-03 15:43:57 - [TEST_STEP][PASSED] - Statement - If (result.equalsIgnoreCase(email)): null
+
+2018-07-03 15:43:57 - [TEST_STEP][PASSED] - Statement - out.println("Successfully logged in"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TrainingTest" classname="Test Cases/TrainingTest" status="ERROR">
+         <error type="ERROR" message="Test Cases/TrainingTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+General error during class generation: Cannot use return statement with an expression on a method that returns void
+. At [56:3] file:/C:/Users/Acer/Katalon%20Studio/HiUpAutomation/Scripts/TrainingTest/Script1530513478979.groovy
+
+org.codehaus.groovy.syntax.RuntimeParserException: Cannot use return statement with an expression on a method that returns void
+. At [56:3] file:/C:/Users/Acer/Katalon%20Studio/HiUpAutomation/Scripts/TrainingTest/Script1530513478979.groovy
+	at org.codehaus.groovy.classgen.AsmClassGenerator.throwException(AsmClassGenerator.java:648)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeReturn(StatementWriter.java:581)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeReturn(OptimizingStatementWriter.java:319)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitReturnStatement(AsmClassGenerator.java:616)
+	at org.codehaus.groovy.ast.stmt.ReturnStatement.visit(ReturnStatement.java:49)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeForLoopWithClosureList(StatementWriter.java:190)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeForLoopWithClosureList(OptimizingStatementWriter.java:240)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeForStatement(StatementWriter.java:94)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitForLoop(AsmClassGenerator.java:570)
+	at org.codehaus.groovy.ast.stmt.ForStatement.visit(ForStatement.java:49)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeTryCatchFinally(StatementWriter.java:324)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitTryCatchFinally(AsmClassGenerator.java:590)
+	at org.codehaus.groovy.ast.stmt.TryCatchStatement.visit(TryCatchStatement.java:44)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)
+	at org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)
+	at org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:188)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:295)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:286)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:265)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:257)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:201)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:106)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1530611838809.run(TempTestSuite1530611838809.groovy:35)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+
+1 error
+"/>
+         <system-out><![CDATA[2018-07-03 15:43:57 - [TEST_CASE][ERROR] - Test Cases/TrainingTest: Test Cases/TrainingTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+General error during class generation: Cannot use return statement with an expression on a method that returns void
+. At [56:3] file:/C:/Users/Acer/Katalon%20Studio/HiUpAutomation/Scripts/TrainingTest/Script1530513478979.groovy
+
+org.codehaus.groovy.syntax.RuntimeParserException: Cannot use return statement with an expression on a method that returns void
+. At [56:3] file:/C:/Users/Acer/Katalon%20Studio/HiUpAutomation/Scripts/TrainingTest/Script1530513478979.groovy
+	at org.codehaus.groovy.classgen.AsmClassGenerator.throwException(AsmClassGenerator.java:648)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeReturn(StatementWriter.java:581)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeReturn(OptimizingStatementWriter.java:319)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitReturnStatement(AsmClassGenerator.java:616)
+	at org.codehaus.groovy.ast.stmt.ReturnStatement.visit(ReturnStatement.java:49)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeForLoopWithClosureList(StatementWriter.java:190)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeForLoopWithClosureList(OptimizingStatementWriter.java:240)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeForStatement(StatementWriter.java:94)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitForLoop(AsmClassGenerator.java:570)
+	at org.codehaus.groovy.ast.stmt.ForStatement.visit(ForStatement.java:49)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeTryCatchFinally(StatementWriter.java:324)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitTryCatchFinally(AsmClassGenerator.java:590)
+	at org.codehaus.groovy.ast.stmt.TryCatchStatement.visit(TryCatchStatement.java:44)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)
+	at org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)
+	at org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:188)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:295)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:286)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:265)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:257)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:201)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:106)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1530611838809.run(TempTestSuite1530611838809.groovy:35)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-07-03 15:43:57 - [TEST_CASE][ERROR] - Test Cases/TrainingTest: Test Cases/TrainingTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+General error during class generation: Cannot use return statement with an expression on a method that returns void
+. At [56:3] file:/C:/Users/Acer/Katalon%20Studio/HiUpAutomation/Scripts/TrainingTest/Script1530513478979.groovy
+
+org.codehaus.groovy.syntax.RuntimeParserException: Cannot use return statement with an expression on a method that returns void
+. At [56:3] file:/C:/Users/Acer/Katalon%20Studio/HiUpAutomation/Scripts/TrainingTest/Script1530513478979.groovy
+	at org.codehaus.groovy.classgen.AsmClassGenerator.throwException(AsmClassGenerator.java:648)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeReturn(StatementWriter.java:581)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeReturn(OptimizingStatementWriter.java:319)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitReturnStatement(AsmClassGenerator.java:616)
+	at org.codehaus.groovy.ast.stmt.ReturnStatement.visit(ReturnStatement.java:49)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeForLoopWithClosureList(StatementWriter.java:190)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeForLoopWithClosureList(OptimizingStatementWriter.java:240)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeForStatement(StatementWriter.java:94)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitForLoop(AsmClassGenerator.java:570)
+	at org.codehaus.groovy.ast.stmt.ForStatement.visit(ForStatement.java:49)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeTryCatchFinally(StatementWriter.java:324)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitTryCatchFinally(AsmClassGenerator.java:590)
+	at org.codehaus.groovy.ast.stmt.TryCatchStatement.visit(TryCatchStatement.java:44)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)
+	at org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)
+	at org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:188)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:295)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:286)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:265)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:257)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:201)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:106)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1530611838809.run(TempTestSuite1530611838809.groovy:35)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 15:42:20 - [TEST_SUITE][ERROR] - HiUpTestSuite: Test Cases/TrainingTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+General error during class generation: Cannot use return statement with an expression on a method that returns void
+. At [56:3] file:/C:/Users/Acer/Katalon%20Studio/HiUpAutomation/Scripts/TrainingTest/Script1530513478979.groovy
+
+org.codehaus.groovy.syntax.RuntimeParserException: Cannot use return statement with an expression on a method that returns void
+. At [56:3] file:/C:/Users/Acer/Katalon%20Studio/HiUpAutomation/Scripts/TrainingTest/Script1530513478979.groovy
+	at org.codehaus.groovy.classgen.AsmClassGenerator.throwException(AsmClassGenerator.java:648)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeReturn(StatementWriter.java:581)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeReturn(OptimizingStatementWriter.java:319)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitReturnStatement(AsmClassGenerator.java:616)
+	at org.codehaus.groovy.ast.stmt.ReturnStatement.visit(ReturnStatement.java:49)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeForLoopWithClosureList(StatementWriter.java:190)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeForLoopWithClosureList(OptimizingStatementWriter.java:240)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeForStatement(StatementWriter.java:94)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitForLoop(AsmClassGenerator.java:570)
+	at org.codehaus.groovy.ast.stmt.ForStatement.visit(ForStatement.java:49)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeTryCatchFinally(StatementWriter.java:324)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitTryCatchFinally(AsmClassGenerator.java:590)
+	at org.codehaus.groovy.ast.stmt.TryCatchStatement.visit(TryCatchStatement.java:44)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)
+	at org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)
+	at org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:188)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:295)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:286)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:265)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:257)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:201)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:106)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1530611838809.run(TempTestSuite1530611838809.groovy:35)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+
+1 error]]></system-out>
+      <system-err><![CDATA[2018-07-03 15:42:20 - [TEST_SUITE][ERROR] - HiUpTestSuite: Test Cases/TrainingTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+General error during class generation: Cannot use return statement with an expression on a method that returns void
+. At [56:3] file:/C:/Users/Acer/Katalon%20Studio/HiUpAutomation/Scripts/TrainingTest/Script1530513478979.groovy
+
+org.codehaus.groovy.syntax.RuntimeParserException: Cannot use return statement with an expression on a method that returns void
+. At [56:3] file:/C:/Users/Acer/Katalon%20Studio/HiUpAutomation/Scripts/TrainingTest/Script1530513478979.groovy
+	at org.codehaus.groovy.classgen.AsmClassGenerator.throwException(AsmClassGenerator.java:648)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeReturn(StatementWriter.java:581)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeReturn(OptimizingStatementWriter.java:319)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitReturnStatement(AsmClassGenerator.java:616)
+	at org.codehaus.groovy.ast.stmt.ReturnStatement.visit(ReturnStatement.java:49)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeForLoopWithClosureList(StatementWriter.java:190)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeForLoopWithClosureList(OptimizingStatementWriter.java:240)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeForStatement(StatementWriter.java:94)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitForLoop(AsmClassGenerator.java:570)
+	at org.codehaus.groovy.ast.stmt.ForStatement.visit(ForStatement.java:49)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeTryCatchFinally(StatementWriter.java:324)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitTryCatchFinally(AsmClassGenerator.java:590)
+	at org.codehaus.groovy.ast.stmt.TryCatchStatement.visit(TryCatchStatement.java:44)
+	at org.codehaus.groovy.classgen.asm.StatementWriter.writeBlockStatement(StatementWriter.java:84)
+	at org.codehaus.groovy.classgen.asm.OptimizingStatementWriter.writeBlockStatement(OptimizingStatementWriter.java:158)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitBlockStatement(AsmClassGenerator.java:566)
+	at org.codehaus.groovy.ast.stmt.BlockStatement.visit(BlockStatement.java:71)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:104)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:115)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitStdMethod(AsmClassGenerator.java:430)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitConstructorOrMethod(AsmClassGenerator.java:387)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitMethod(ClassCodeVisitorSupport.java:126)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitMethod(AsmClassGenerator.java:507)
+	at org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1078)
+	at org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:53)
+	at org.codehaus.groovy.classgen.AsmClassGenerator.visitClass(AsmClassGenerator.java:233)
+	at org.codehaus.groovy.control.CompilationUnit$16.call(CompilationUnit.java:813)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1053)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:591)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:188)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:295)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:286)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:265)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:257)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:201)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:106)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1530611838809.run(TempTestSuite1530611838809.groovy:35)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

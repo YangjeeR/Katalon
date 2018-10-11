@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HiUpTestSuite,,,2018-06-29 16:33:40,2018-06-29 16:36:39,2m - 59.366s,PASSED
+,,,,,,
+Test Cases/HiUP_LoginTest,,,2018-06-29 16:33:40,2018-06-29 16:35:19,1m - 39.218s,PASSED
+Statement - Try,,,2018-06-29 16:33:41,2018-06-29 16:35:19,1m - 38.562s,PASSED
+,,,,,,
+Test Cases/JobFeedTest,,,2018-06-29 16:35:19,2018-06-29 16:36:37,1m - 17.173s,PASSED
+Statement - Try,,,2018-06-29 16:35:20,2018-06-29 16:36:37,1m - 16.819s,PASSED
+Statement - Catch (Exception e),,,2018-06-29 16:36:37,2018-06-29 16:36:37,0.015s,PASSED

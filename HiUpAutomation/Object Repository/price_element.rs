@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>price_element</name>
+   <tag></tag>
+   <elementGuidId>8f984af7-add6-41e4-a2b1-8a10a7cb8ac2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>co.olivemedia.hihoandroidwebapp:id/tv_training_specific_course_price</value>
+   </webElementProperties>
+</WebElementEntity>

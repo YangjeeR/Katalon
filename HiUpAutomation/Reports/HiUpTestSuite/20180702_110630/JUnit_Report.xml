@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HiUpTestSuite" time="271" tests="2" failures="0" errors="0">
+   <testsuite name="HiUpTestSuite" tests="2" failures="0" errors="0" time="271" timestamp="2018-07-02 11:06:36" hostname="Acer - DESKTOP-O5SIUU5" id="Test Suites/HiUpTestSuite">
+      <properties>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180702_110630"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180702_110630\\appium.log, C:\\Users\\Acer\\Katalon Studio\\HiUpAutomation\\Reports\\HiUpTestSuite\\20180702_110630\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - DESKTOP-O5SIUU5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G935F"/>
+         <property name="hostAddress" value="192.168.210.2"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="ce12160cab7a2c4b0c"/>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/HiUP_LoginTest" classname="Test Cases/HiUP_LoginTest" status="PASSED">
+         <system-out><![CDATA[2018-07-02 11:06:36 - [TEST_CASE][PASSED] - Test Cases/HiUP_LoginTest: Test Cases/HiUP_LoginTest
+
+2018-07-02 11:06:37 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-07-02 11:06:37 - [TEST_STEP][PASSED] - Statement - email = "jmeter12345@gmail.com": null
+
+2018-07-02 11:06:37 - [TEST_STEP][PASSED] - Statement - pass = "y@nzEE2018": null
+
+2018-07-02 11:06:37 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\HIUP-2.2.2(68).apk'
+
+2018-07-02 11:07:22 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Acer\Desktop\HiUp_uat_apk\HIUP-2.2.2(68).apk'
+
+2018-07-02 11:07:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:07:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:07:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:07:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:07:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:07:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:07:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat8'
+
+2018-07-02 11:07:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:07:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat8'
+
+2018-07-02 11:07:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Sign in'
+
+2018-07-02 11:07:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:07:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Sign in'
+
+2018-07-02 11:07:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button1 - LOGIN'
+
+2018-07-02 11:07:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:07:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button1 - LOGIN'
+
+2018-07-02 11:07:40 - [TEST_STEP][PASSED] - setText: Text 'jmeter12345@gmail.com' has been set to element 'Object Repository/android.widget.EditText0 - Email'
+
+2018-07-02 11:07:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:07:43 - [MESSAGE][PASSED] - Text 'jmeter12345@gmail.com' has been set to element 'Object Repository/android.widget.EditText0 - Email'
+
+2018-07-02 11:07:43 - [TEST_STEP][PASSED] - setText: Text 'y@nzEE2018' has been set to element 'Object Repository/android.widget.EditText1 - Password'
+
+2018-07-02 11:07:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:07:46 - [MESSAGE][PASSED] - Text 'y@nzEE2018' has been set to element 'Object Repository/android.widget.EditText1 - Password'
+
+2018-07-02 11:07:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button6 - Sign in'
+
+2018-07-02 11:07:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:07:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button6 - Sign in'
+
+2018-07-02 11:07:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:07:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:08:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:08:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:08:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:08:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:08:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.CheckedTextView3 - Profile'
+
+2018-07-02 11:08:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:08:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.CheckedTextView3 - Profile'
+
+2018-07-02 11:08:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-07-02 11:08:12 - [TEST_STEP][PASSED] - Statement - result = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(prof_email), 0): Text of element 'Object Repository/prof_email' is: 'jmeter12345@gmail.com'
+
+2018-07-02 11:08:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:08:13 - [MESSAGE][PASSED] - Text of element 'Object Repository/prof_email' is: 'jmeter12345@gmail.com'
+
+2018-07-02 11:08:13 - [TEST_STEP][PASSED] - Statement - out.println(result): null
+
+2018-07-02 11:08:13 - [TEST_STEP][PASSED] - Statement - If (result.equalsIgnoreCase(email)): null
+
+2018-07-02 11:08:13 - [TEST_STEP][PASSED] - Statement - out.println("Successfully logged in"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JobFeedTest" classname="Test Cases/JobFeedTest" status="PASSED">
+         <system-out><![CDATA[2018-07-02 11:08:13 - [TEST_CASE][PASSED] - Test Cases/JobFeedTest: Test Cases/JobFeedTest
+
+2018-07-02 11:08:13 - [TEST_STEP][PASSED] - Statement - Try: Failed to tap on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {Name: appWaitActivity, Value: com.*, app: C:\Users\Acer\Desktop\HiUp_..., appPackage: co.olivemedia.hihoandroidwe..., autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {Name: appWaitActivity, Value: com.*, app: C:\Users\Acer\Desktop\HiUp_..., autoGrantPermissions: true, automationName: uiautomator2, deviceId: ce12160cab7a2c4b0c, deviceName: samsung SM-G935F (Android 8..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: Android, udid: ce12160cab7a2c4b0c}, deviceApiLevel: 26, deviceId: ce12160cab7a2c4b0c, deviceManufacturer: samsung, deviceModel: SM-G935F, deviceName: ce12160cab7a2c4b0c, deviceScreenDensity: 640, deviceScreenSize: 1440x2560, deviceUDID: ce12160cab7a2c4b0c, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, platformVersion: 8.0.0, statBarHeight: 96, takesScreenshot: true, udid: ce12160cab7a2c4b0c, viewportRect: {height: 2464, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 91cee1c0-d0a4-4ff1-8b0b-2e48cd879a69
+*** Element info: {Using=-android uiautomator, value=new UiSelector().className("android.support.v7.widget.LinearLayoutCompat").instance(0)})
+
+2018-07-02 11:08:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:08:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:08:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:08:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:08:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:08:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:08:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0'
+
+2018-07-02 11:08:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:08:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0'
+
+2018-07-02 11:08:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Refine'
+
+2018-07-02 11:08:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:08:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Refine'
+
+2018-07-02 11:08:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button2 - Reset'
+
+2018-07-02 11:08:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:08:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button2 - Reset'
+
+2018-07-02 11:08:25 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(20000): null
+
+2018-07-02 11:08:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView0'
+
+2018-07-02 11:08:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:08:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView0'
+
+2018-07-02 11:08:47 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-07-02 11:08:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Apply'
+
+2018-07-02 11:08:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:08:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Apply'
+
+2018-07-02 11:08:52 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-07-02 11:08:54 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(android.widget.TextView3 - Jobs), 10)): Failed to tap on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {Name: appWaitActivity, Value: com.*, app: C:\Users\Acer\Desktop\HiUp_..., appPackage: co.olivemedia.hihoandroidwe..., autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {Name: appWaitActivity, Value: com.*, app: C:\Users\Acer\Desktop\HiUp_..., autoGrantPermissions: true, automationName: uiautomator2, deviceId: ce12160cab7a2c4b0c, deviceName: samsung SM-G935F (Android 8..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: Android, udid: ce12160cab7a2c4b0c}, deviceApiLevel: 26, deviceId: ce12160cab7a2c4b0c, deviceManufacturer: samsung, deviceModel: SM-G935F, deviceName: ce12160cab7a2c4b0c, deviceScreenDensity: 640, deviceScreenSize: 1440x2560, deviceUDID: ce12160cab7a2c4b0c, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, platformVersion: 8.0.0, statBarHeight: 96, takesScreenshot: true, udid: ce12160cab7a2c4b0c, viewportRect: {height: 2464, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 91cee1c0-d0a4-4ff1-8b0b-2e48cd879a69
+*** Element info: {Using=-android uiautomator, value=new UiSelector().className("android.support.v7.widget.LinearLayoutCompat").instance(0)})
+
+2018-07-02 11:09:03 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView3 - Jobs' is exist
+
+2018-07-02 11:09:03 - [TEST_STEP][PASSED] - Statement - out.println("Job has already been applied."): null
+
+2018-07-02 11:09:03 - [TEST_STEP][PASSED] - Statement - i = 2: null
+
+2018-07-02 11:09:03 - [TEST_STEP][PASSED] - Statement - While (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(android.widget.TextView3 - Jobs), 10)): Failed to tap on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {Name: appWaitActivity, Value: com.*, app: C:\Users\Acer\Desktop\HiUp_..., appPackage: co.olivemedia.hihoandroidwe..., autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {Name: appWaitActivity, Value: com.*, app: C:\Users\Acer\Desktop\HiUp_..., autoGrantPermissions: true, automationName: uiautomator2, deviceId: ce12160cab7a2c4b0c, deviceName: samsung SM-G935F (Android 8..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: Android, udid: ce12160cab7a2c4b0c}, deviceApiLevel: 26, deviceId: ce12160cab7a2c4b0c, deviceManufacturer: samsung, deviceModel: SM-G935F, deviceName: ce12160cab7a2c4b0c, deviceScreenDensity: 640, deviceScreenSize: 1440x2560, deviceUDID: ce12160cab7a2c4b0c, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, platformVersion: 8.0.0, statBarHeight: 96, takesScreenshot: true, udid: ce12160cab7a2c4b0c, viewportRect: {height: 2464, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 91cee1c0-d0a4-4ff1-8b0b-2e48cd879a69
+*** Element info: {Using=-android uiautomator, value=new UiSelector().className("android.support.v7.widget.LinearLayoutCompat").instance(0)})
+
+2018-07-02 11:09:04 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView3 - Jobs' is exist
+
+2018-07-02 11:09:04 - [TEST_STEP][PASSED] - Statement - out.println("Value of i:" + i): null
+
+2018-07-02 11:09:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:09:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:09:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:09:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:09:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:09:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:09:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0'
+
+2018-07-02 11:09:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:09:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0'
+
+2018-07-02 11:09:12 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-07-02 11:09:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.RelativeLayout5'
+
+2018-07-02 11:09:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RelativeLayout5'
+
+2018-07-02 11:09:19 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-07-02 11:09:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Apply'
+
+2018-07-02 11:09:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:09:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Apply'
+
+2018-07-02 11:09:23 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-07-02 11:09:25 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-07-02 11:09:25 - [TEST_STEP][PASSED] - Statement - out.println("Value of other i:" + i): null
+
+2018-07-02 11:09:25 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(4000): Element 'Object Repository/android.widget.TextView3 - Jobs' is exist
+
+2018-07-02 11:09:32 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView3 - Jobs' is exist
+
+2018-07-02 11:09:32 - [TEST_STEP][PASSED] - Statement - out.println("Value of i:" + i): null
+
+2018-07-02 11:09:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:09:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:09:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:09:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:09:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:09:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0'
+
+2018-07-02 11:09:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:09:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0'
+
+2018-07-02 11:09:51 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-07-02 11:09:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.RelativeLayout5'
+
+2018-07-02 11:09:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RelativeLayout5'
+
+2018-07-02 11:09:58 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-07-02 11:10:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Apply'
+
+2018-07-02 11:10:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:10:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Apply'
+
+2018-07-02 11:10:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-07-02 11:10:06 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-07-02 11:10:06 - [TEST_STEP][PASSED] - Statement - out.println("Value of other i:" + i): null
+
+2018-07-02 11:10:06 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(4000): Element 'Object Repository/android.widget.TextView3 - Jobs' is exist
+
+2018-07-02 11:10:11 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView3 - Jobs' is exist
+
+2018-07-02 11:10:11 - [TEST_STEP][PASSED] - Statement - out.println("Value of i:" + i): null
+
+2018-07-02 11:10:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:10:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:10:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:10:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:10:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:10:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:10:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0'
+
+2018-07-02 11:10:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:10:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0'
+
+2018-07-02 11:10:18 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-07-02 11:10:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.RelativeLayout5'
+
+2018-07-02 11:10:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RelativeLayout5'
+
+2018-07-02 11:10:25 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-07-02 11:10:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Apply'
+
+2018-07-02 11:10:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:10:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Apply'
+
+2018-07-02 11:10:29 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-07-02 11:10:31 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-07-02 11:10:31 - [TEST_STEP][PASSED] - Statement - out.println("Value of other i:" + i): null
+
+2018-07-02 11:10:31 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(4000): Element 'Object Repository/android.widget.TextView3 - Jobs' is exist
+
+2018-07-02 11:10:36 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView3 - Jobs' is exist
+
+2018-07-02 11:10:36 - [TEST_STEP][PASSED] - Statement - out.println("Value of i:" + i): null
+
+2018-07-02 11:10:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:10:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:10:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:10:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:10:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:10:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:10:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0'
+
+2018-07-02 11:10:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:10:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0'
+
+2018-07-02 11:10:43 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-07-02 11:10:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.RelativeLayout5'
+
+2018-07-02 11:10:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RelativeLayout5'
+
+2018-07-02 11:10:49 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-07-02 11:10:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Apply'
+
+2018-07-02 11:10:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:10:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Apply'
+
+2018-07-02 11:10:53 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-07-02 11:10:55 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-07-02 11:10:55 - [TEST_STEP][PASSED] - Statement - out.println("Value of other i:" + i): null
+
+2018-07-02 11:10:55 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(4000): Element 'Object Repository/android.widget.TextView3 - Jobs' is exist
+
+2018-07-02 11:11:01 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView3 - Jobs' is exist
+
+2018-07-02 11:11:01 - [TEST_STEP][PASSED] - Statement - out.println("Value of i:" + i): null
+
+2018-07-02 11:11:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:11:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:11:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.LinearLayout22'
+
+2018-07-02 11:11:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:11:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:11:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView18'
+
+2018-07-02 11:11:05 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {Name: appWaitActivity, Value: com.*, app: C:\Users\Acer\Desktop\HiUp_..., appPackage: co.olivemedia.hihoandroidwe..., autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {Name: appWaitActivity, Value: com.*, app: C:\Users\Acer\Desktop\HiUp_..., autoGrantPermissions: true, automationName: uiautomator2, deviceId: ce12160cab7a2c4b0c, deviceName: samsung SM-G935F (Android 8..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: Android, udid: ce12160cab7a2c4b0c}, deviceApiLevel: 26, deviceId: ce12160cab7a2c4b0c, deviceManufacturer: samsung, deviceModel: SM-G935F, deviceName: ce12160cab7a2c4b0c, deviceScreenDensity: 640, deviceScreenSize: 1440x2560, deviceUDID: ce12160cab7a2c4b0c, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, platformVersion: 8.0.0, statBarHeight: 96, takesScreenshot: true, udid: ce12160cab7a2c4b0c, viewportRect: {height: 2464, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 91cee1c0-d0a4-4ff1-8b0b-2e48cd879a69
+*** Element info: {Using=-android uiautomator, value=new UiSelector().className("android.support.v7.widget.LinearLayoutCompat").instance(0)})
+
+2018-07-02 11:11:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-02 11:11:07 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-02 11:11:07 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/android.support.v7.widget.LinearLayoutCompat0' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-O5SIUU5', ip: '192.168.210.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {Name: appWaitActivity, Value: com.*, app: C:\Users\Acer\Desktop\HiUp_..., appPackage: co.olivemedia.hihoandroidwe..., autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {Name: appWaitActivity, Value: com.*, app: C:\Users\Acer\Desktop\HiUp_..., autoGrantPermissions: true, automationName: uiautomator2, deviceId: ce12160cab7a2c4b0c, deviceName: samsung SM-G935F (Android 8..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: Android, udid: ce12160cab7a2c4b0c}, deviceApiLevel: 26, deviceId: ce12160cab7a2c4b0c, deviceManufacturer: samsung, deviceModel: SM-G935F, deviceName: ce12160cab7a2c4b0c, deviceScreenDensity: 640, deviceScreenSize: 1440x2560, deviceUDID: ce12160cab7a2c4b0c, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 4, platform: ANDROID, platformName: ANDROID, platformVersion: 8.0.0, statBarHeight: 96, takesScreenshot: true, udid: ce12160cab7a2c4b0c, viewportRect: {height: 2464, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 91cee1c0-d0a4-4ff1-8b0b-2e48cd879a69
+*** Element info: {Using=-android uiautomator, value=new UiSelector().className("android.support.v7.widget.LinearLayoutCompat").instance(0)})
+
+2018-07-02 11:11:07 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-07-02 11:11:07 - [TEST_STEP][PASSED] - Statement - out.println("Unable to test Job Feed Menu."): null
+
+2018-07-02 11:11:07 - [TEST_STEP][PASSED] - Statement - out.println(e.getMessage()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-02 11:06:36 - [TEST_SUITE][PASSED] - HiUpTestSuite: Test Cases/JobFeedTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

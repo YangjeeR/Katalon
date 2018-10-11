@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HiUpTestSuite,,,2018-08-01 12:42:29,2018-08-01 12:44:09,1m - 39.970s,PASSED
+,,,,,,
+Test Cases/SignUpTest,,,2018-08-01 12:42:29,2018-08-01 12:44:06,1m - 37.154s,PASSED
+Statement - Try,,,2018-08-01 12:42:30,2018-08-01 12:43:53,1m - 23.515s,PASSED
+Statement - width = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getDeviceWidth(),,,2018-08-01 12:43:53,2018-08-01 12:43:54,0.376s,PASSED
+Statement - startX = width / 2,,,2018-08-01 12:43:54,2018-08-01 12:43:54,0.001s,PASSED
+Statement - endX = startX,,,2018-08-01 12:43:54,2018-08-01 12:43:54,0.000s,PASSED
+Statement - startY = width * 0.30,,,2018-08-01 12:43:54,2018-08-01 12:43:54,0.002s,PASSED
+Statement - endY = width * 0.70,,,2018-08-01 12:43:54,2018-08-01 12:43:54,0.000s,PASSED
+swipe,,,2018-08-01 12:43:54,2018-08-01 12:43:56,2.461s,PASSED
+Statement - java.lang.Thread.sleep(2000),,,2018-08-01 12:43:56,2018-08-01 12:44:06,10.235s,PASSED
+Statement - Catch (Exception e),,,2018-08-01 12:44:06,2018-08-01 12:44:06,0.019s,PASSED
